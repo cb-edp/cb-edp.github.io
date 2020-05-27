@@ -3,7 +3,6 @@
  <head>
   <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
   <script src="https://kit.fontawesome.com/1332795812.js" crossorigin="anonymous"></script>
-  <script src="js/script.js"></script>
   <style>
    * {font-family: 'Open Sans',Arial,Helvetica,Verdana,sans-serif;}
    h1, h2, h3, h4 {font-family: 'AvenirBlack',Arial,Helvetica,Verdana,sans-serif; text-transform: uppercase;}
@@ -16,8 +15,8 @@
    .text-blue-darkblue {color: #285dab;}
 
    /* Icon styling */
-   .fa-angle-up {opacity: 0.8;}
-   .active .fa-angle-up {opacity: 1; transform: rotate(90deg); transition: 0.2s}
+   .fa-angle-right {opacity: 0.8;}
+   .active .fa-angle-right {opacity: 1; transform: rotate(90deg); transition: 0.2s}
   </style>
   <style type="text/css">
    /* open-sans-regular - latin */
@@ -100,19 +99,21 @@
   </style>
  </head>
  <body>
-  <div class="grid grid-cols-1 lg:grid-cols-12 gap-0 lg:h-screen">
+  <div class="grid lg:grid-cols-12 gap-0 lg:h-screen">
    <div class="lg:col-span-4 xl:col-span-3 bg-coolblue">
-    <div class="-mt-8 -ml-4 w-32">
-     <a href="https://cb-edp.github.io/">
-      <img src="img/cbLogo.png" width="100%" alt="Coolblue">
-     </a>
-    </div>
-    <div class="m-4">
-     <div class="mb-4">
+    <div class="flex">
+     <div class="-mt-8 -ml-4 w-32 sm:flex-auto md:flex-none">
+      <a href="https://cb-edp.github.io/">
+       <img src="img/cbLogo.png" width="100%" alt="Coolblue">
+      </a>
+     </div>
+     <div class="m-4">
       <h1 class="text-white font-bold text-xl">
-       Email Development Pages
+       Email Development Pages<span class="text-orange-coolblue">.</span>
       </h1>
      </div>
+   </div>
+    <div class="m-4">
      <div class="divide-y divide-white">
       <div class="py-4 menu">
        <button class="w-full text-left text-white font-bold text-sm menu-button">Welcome <span class="float-right"><i class="fas fa-angle-right"></i></span></button>
@@ -146,5 +147,6 @@
     </div>
    </div>
   </div>
+  <script src="js/script.js"></script>
  </body>
 </html>
