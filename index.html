@@ -1,7 +1,146 @@
 <!DOCTYPE html>
 <html>
-<body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
-</body>
+ <head>
+  <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/1332795812.js" crossorigin="anonymous"></script>
+  <style>
+   * {font-family: 'Open Sans',Arial,Helvetica,Verdana,sans-serif;}
+   h1, h2, h3, h4 {font-family: 'AvenirBlack',Arial,Helvetica,Verdana,sans-serif; text-transform: uppercase;}
+
+   /*div {border: 1px solid #dddddd}*/
+
+   /* Coolblue styling*/
+   .bg-coolblue {background-color: #0090e3;}
+   .text-orange-coolblue {color: #ff6600}
+   .text-blue-darkblue {color: #285dab;}
+
+   /* Icon styling */
+   .icon::after {
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+   }
+   .carret::after {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f106";
+   }
+  </style>
+  <style type="text/css">
+   /* open-sans-regular - latin */
+   @font-face {
+     font-family: 'Open Sans';
+     font-style: normal;
+     font-weight: 400;
+     font-display: swap;
+     src: url('https://assets.coolblue.nl/fonts/open-sans-v14-latin-regular.eot');
+     src: local('Open Sans Regular'), local('OpenSans-Regular'),
+     url('https://assets.coolblue.nl/fonts/open-sans-v14-latin-regular.woff2') format('woff2'),
+     url('https://assets.coolblue.nl/fonts/open-sans-v14-latin-regular.woff') format('woff'),
+     url('https://assets.coolblue.nl/fonts/open-sans-v14-latin-regular.ttf') format('truetype'),
+     url('https://assets.coolblue.nl/fonts/open-sans-v14-latin-regular.svg#OpenSans') format('svg');
+   }
+   
+   /* open-sans-600 - latin */
+   @font-face {
+     font-family: 'Open Sans';
+     font-style: normal;
+     font-weight: 600;
+     font-display: swap;
+     src: url('https://assets.coolblue.nl/fonts/open-sans-v14-latin-600.eot');
+     src: local('Open Sans SemiBold'), local('OpenSans-SemiBold'),
+     url('https://assets.coolblue.nl/fonts/open-sans-v14-latin-600.woff2') format('woff2'),
+     url('https://assets.coolblue.nl/fonts/open-sans-v14-latin-600.woff') format('woff'),
+     url('https://assets.coolblue.nl/fonts/open-sans-v14-latin-600.ttf') format('truetype'),
+     url('https://assets.coolblue.nl/fonts/open-sans-v14-latin-600.svg#OpenSans') format('svg');
+   }
+   
+   /* open-sans-700 - latin */
+   @font-face {
+     font-family: 'Open Sans';
+     font-style: normal;
+     font-weight: 700;
+     font-display: swap;
+     src: url('https://assets.coolblue.nl/fonts/open-sans-v14-latin-700.eot');
+     src: local('Open Sans Bold'), local('OpenSans-Bold'),
+     url('https://assets.coolblue.nl/fonts/open-sans-v14-latin-700.woff2') format('woff2'),
+     url('https://assets.coolblue.nl/fonts/open-sans-v14-latin-700.woff') format('woff'),
+     url('https://assets.coolblue.nl/fonts/open-sans-v14-latin-700.ttf') format('truetype'),
+     url('https://assets.coolblue.nl/fonts/open-sans-v14-latin-700.svg#OpenSans') format('svg');
+   }
+   
+   @font-face {
+     font-family: 'AvenirBlack';
+     src: local(Avenir-Black),
+     local(AvenirBlack),
+     url('https://assets.coolblue.nl/fonts/aebl____-webfont.woff2') format('woff2'),
+     url('https://assets.coolblue.nl/fonts/aebl____-webfont.woff') format('woff'),
+     url('https://assets.coolblue.nl/fonts/aebl____-webfont.ttf') format('truetype');
+     font-style: normal;
+     font-weight: 900;
+     font-display: swap;
+   }
+   
+   @font-face {
+     font-family: 'DobraSlabBook';
+     src: local('DobraSlab-Book'),
+     local('DobraSlabBook'),
+     url('https://assets.coolblue.nl/fonts/dobraslab-book-webfont.woff2') format('woff2'),
+     url('https://assets.coolblue.nl/fonts/dobraslab-book-webfont.woff') format('woff'),
+     url('https://assets.coolblue.nl/fonts/dobraslab-book-webfont.ttf') format('truetype');
+     font-weight: 400;
+     font-style: normal;
+     font-display: swap;
+   }
+   
+   @font-face {
+     font-family: 'DobraSlabMedium';
+     src: local('DobraSlab-Medium'),
+     local('DobraSlabMedium'),
+     url('https://assets.coolblue.nl/fonts/dobraslab-medium-webfont.woff2') format('woff2'),
+     url('https://assets.coolblue.nl/fonts/dobraslab-medium-webfont.woff') format('woff'),
+     url('https://assets.coolblue.nl/fonts/dobraslab-medium-webfont.ttf') format('truetype');
+     font-weight: 500;
+     font-style: normal;
+     font-display: swap;
+   }
+  </style>
+ </head>
+ <body>
+  <div class="grid grid-cols-1 lg:grid-cols-12 gap-0 lg:h-screen">
+   <div class="lg:col-span-4 xl:col-span-3 bg-coolblue">
+    <div class="-mt-8 -ml-4 w-32">
+     <a href="https://cb-edp.github.io/">
+      <img src="img/cbLogo.png" width="100%" alt="Coolblue">
+     </a>
+    </div>
+    <div class="m-4">
+     <div class="mb-4">
+      <h1 class="text-white font-bold text-xl">
+       Email Development Pages
+      </h1>
+     </div>
+     <div class="divide-y divide-white">
+      <div class="py-4">
+       <button class="w-full bg-green-500 text-justify text-white text-sm">Welcome <span class="float-right"><i class="fas fa-angle-up fa-rotate-180"></i></span></button>
+      </div>
+      <div>
+       2
+      </div>
+     </div>
+    </div>
+   </div>
+   <div class="lg:col-span-8 xl:col-span-9">
+    <div class="mt-24">
+     <div class="my-4 mx-8">
+      <h2 class="text-blue-darkblue text-4xl -mt-2">
+       Page title<span class="text-orange-coolblue">.</span>
+      </h2>
+     </div>
+    </div>
+   </div>
+  </div>
+ </body>
 </html>
