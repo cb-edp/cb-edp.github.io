@@ -2,17 +2,19 @@
 <html>
  <head>
   <title>Coolblue - Email Development Pages</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
   <link href="/style/style.css" rel="stylesheet">
   <link href="/style/fonts.css" rel="stylesheet">
   <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+  
   <script src="https://kit.fontawesome.com/1332795812.js" crossorigin="anonymous"></script>
  </head>
  <body class="w-100">
-  <div class="grid lg:grid-cols-12 gap-0 lg:h-screen">
+  <div class="grid xl:grid-cols-12 gap-0 lg:h-screen">
    <!--Sidebar-->
-   <div class="lg:col-span-4 xl:col-span-2 bg-coolblue">
+   <div class="xl:col-span-2 bg-coolblue">
     <div class="">
      <div class="-mt-8 -ml-4 w-32">
       <a href="https://cb-edp.github.io/">
@@ -113,7 +115,7 @@
     </div>
    </div>
    <!--Content-->
-   <div class="lg:col-span-8 xl:col-span-10">
+   <div class="xl:col-span-10">
     <div class="mt-8 lg:mt-24">
      <div class="my-4 mx-4 lg:mx-8">
       <div>
@@ -145,10 +147,22 @@
          </div>
          <div class="w-3/4">
           <p class="text-sm">
-           <span class="inline-block rounded bg-orange-coolblue px-2 py-1 text-xs font-bold text-white label">Label</span> <span class="inline-block rounded bg-purple-coolblue px-2 py-1 text-xs font-bold text-white label">Label</span> <span class="inline-block rounded bg-green-coolblue px-2 py-1 text-xs font-bold text-white label">Label</span> <span class="inline-block rounded bg-red-coolblue px-2 py-1 text-xs font-bold text-white label">Label</span>
+           <span class="inline-block rounded bg-orange-coolblue px-2 py-1 text-xs font-bold text-white label">Label</span>
+           <span class="inline-block rounded bg-purple-coolblue px-2 py-1 text-xs font-bold text-white label">Label</span>
+           <span class="inline-block rounded bg-green-coolblue px-2 py-1 text-xs font-bold text-white label">Label</span>
+           <span class="inline-block rounded bg-red-coolblue px-2 py-1 text-xs font-bold text-white label">Label</span>
           </p>
          </div>
         </div>
+       </div>
+       <h3 class="mt-4">
+        H3 - Embed
+       </h3>
+       <div class="embed-desktop mt-4 border rounded inline-block">
+        <iframe src="examples/example_prospecting_newsletter_nlnl.html" class="large"></iframe>
+       </div>
+       <div class="embed-mobile mt-4 lg:ml-4 border rounded inline-block">
+        <iframe src="examples/example_prospecting_newsletter_nlnl.html" class="large"></iframe>
        </div>
       </div>
      </div>

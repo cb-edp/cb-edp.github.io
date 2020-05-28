@@ -1,6 +1,5 @@
 * {font-family: 'Open Sans',Arial,Helvetica,Verdana,sans-serif;}
 h1, h2, h3, h4 {font-family: 'AvenirBlack',Arial,Helvetica,Verdana,sans-serif; text-transform: uppercase;}
-
 span.label {font-family: 'DobraSlabBook','Open Sans',Arial,Helvetica,Verdana,sans-serif; text-transform: lowercase; letter-spacing: 1.2px; -webkit-font-smoothing: antialiased;}
 
 /*div {border: 1px solid #dddddd}*/
@@ -19,3 +18,9 @@ span.label {font-family: 'DobraSlabBook','Open Sans',Arial,Helvetica,Verdana,san
 /* Icon styling */
 .fa-angle-right {opacity: 0.8;}
 .active .fa-angle-right {opacity: 1; transform: rotate(90deg); transition: 0.2s}
+
+/* Embed styling */
+.embed-desktop {width: 700px;}
+.embed-mobile {width: 360px;}
+iframe {width: 100%; border: none;}
+iframe.large {height: 600px}
