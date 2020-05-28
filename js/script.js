@@ -16,12 +16,12 @@ for (i=0;i < menu.length; i++){
 
 // Dynamic input
 const input = document.querySelector('input,textarea');
-const output = document.getElementById('element_introductions_v1_area1_output');
+const log = document.getElementById('element_introductions_v1_area1_output');
 
 input.addEventListener('input', updateValue);
 
 function updateValue(e) {
-  output.textContent = e.target.value;
+  log.textContent = e.target.value;
 }
 
 // Dynamic image
