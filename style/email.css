@@ -1,0 +1,180 @@
+.email-code th {font-weight: normal !important;}
+
+.email-code h2 {font-family: 'Open Sans', Arial, sans-serif; font-size: 28px; font-weight: bold; color: #333333; line-height: 28px !important; padding: 0px 0px 4px 0px;}
+.email-code h3 {font-family: 'Open Sans', Arial, sans-serif; font-size: 20px; font-weight: bold; color: #333333; line-height: 25px !important;}
+.email-code h3.branding {font-size: 17px !important; line-height: 21.25px !important;}
+.email-code h4 {font-family: 'Open Sans', Arial, sans-serif; font-size: 13px; font-weight: bold; color: #0090e3; line-height: 16.25px !important}
+.email-code p {font-family: 'Open Sans', Arial, sans-serif; font-size: 13px; font-weight: normal; color: #333333; line-height: 22.75px !important; text-align: left !important;}
+
+.email-code .price_for {font-size: 15px !important; font-weight: bold !important;}
+.email-code .price_from {font-size: 13px !important; color: #999999 !important; text-decoration: line-through; font-weight: normal !important}
+.email-code .price_advice {font-size: 13px !important; color: #999999 !important; font-weight: normal !important}
+
+.email-code .link_white, .email-code .link_grey, .email-code .link_black, .email-code .link_coolblue, .email-code .link_darkblue {text-decoration: none !important;}
+.email-code .link_white {color: #ffffff !important;}
+.email-code .link_grey {color: #dddddd !important;}
+.email-code .link_black {color: #333333 !important;}
+.email-code .link_coolblue {color: #0090E3 !important;}
+.email-code .link_darkblue {color: #285dab !important;}
+.email-code .hover:hover {text-decoration: underline !important; text-decoration-skip: ink !important;}
+
+.email-code .text_orange_bold {color: #ff6600 !important; font-weight: bold !important;}
+
+.email-code .label {font-family: DobraSlabMedium, 'Open Sans', Arial, sans-serif !important; font-weight: 500 !important; letter-spacing: 0.5px !important;}
+
+.email-code .vertical-align_middle {vertical-align: middle !important;}
+.email-code .vertical-align_bottom {vertical-align: bottom !important;}
+
+.email-code .text-align_mob_left {text-align: left !important;}
+.email-code .text-align_mob_right {text-align: right !important;}
+.email-code .text-align_mob_center {text-align: center !important;}
+
+.email-code .background_white {background-color: #ffffff !important;} 
+.email-code .background_coolblue {background-color: #0090E3 !important;}
+.email-code .background_greyblue {background-color: #F2F7FC !important;}
+
+.email-code .border_white {border: 1px solid #ffffff !important;}
+.email-code .border-top_grey {border-top: 1px solid #dddddd !important;}
+.email-code .border-right_grey {border-right: 1px solid #dddddd !important;}
+.email-code .border-bottom_grey {border-bottom: 1px solid #dddddd !important;}
+.email-code .border-bottom_greyblue {border-bottom: 1px solid #40acea !important;}
+
+.email-code .button_darkblue, .email-code .button_lightblue, .email-code .button_orange, .email-code .button_green, .email-code .button_red, .email-code .button_ghost {text-align: center; vertical-align: middle; border-radius: 3px; font-family: 'Open Sans', arial, sans-serif; font-size: 13px; line-height: 1; font-weight: bold; mso-padding-alt: 11px;}
+.email-code .button_darkblue a, .email-code .button_lightblue a, .email-code .button_orange a, .email-code .button_green a, .email-code .button_red a, .email-code .button_ghost a {display: inline-block; text-decoration: none; mso-padding-alt: 11px;} 
+
+.email-code .button_darkblue {border-bottom: 2px solid #1e4681; background-color: #285DAB; color: #ffffff; mso-border-alt: 1px solid #285DAB}
+.email-code .button_darkblue a {color: #ffffff;  padding: 16px 16px 14px 16px; mso-border-alt: 1px solid #285DAB}
+.email-code .button_darkblue:hover {background-color: #1e4680 !important; border-color: #003366 !important;}
+
+.email-code .button_lightblue {border-bottom: 2px solid #0090e3; background-color: #40acea; color: #ffffff; mso-border-alt: 1px solid #40acea}
+.email-code .button_lightblue a {color: #ffffff;padding: 16px 16px 14px 16px; mso-border-alt: 1px solid #40acea}
+.email-code .button_lightblue:hover {background-color: #0090e3 !important; border-color: #285dab !important;}
+
+.email-code .button_orange {border-bottom: 2px solid #e54b03; background-color: #ff6600; color: #ffffff; mso-border-alt: 1px solid #ff6600}
+.email-code .button_orange a {color: #ffffff;padding: 16px 16px 14px 16px; mso-border-alt: 1px solid #ff6600}
+.email-code .button_orange:hover {background-color: #e54b03 !important; border-color: #B93800 !important;}
+
+.email-code .button_red {border-bottom: 2px solid #c00000; background-color: #e40000; color: #ffffff; mso-border-alt: 1px solid #e40000}
+.email-code .button_red a {color: #ffffff;padding: 16px 16px 14px 16px; mso-border-alt: 1px solid #e40000}
+.email-code .button_red:hover {background-color: #c00000 !important; border-color: #8e2b00 !important;}
+
+.email-code .button_green {border-bottom: 2px solid #018b00; background-color: #01b901; color: #ffffff; mso-border-alt: 1px solid #01b901}
+.email-code .button_green a {color: #ffffff;padding: 16px 16px 14px 16px; mso-border-alt: 1px solid #01b901}
+.email-code .button_green:hover {background-color: #009600 !important; border-color: #005e00 !important;}
+
+.email-code .button_ghost {border: 1px solid #dddddd; background-color: #ffffff; color: #40acea; mso-border-alt: 1px solid #ffffff}
+.email-code .button_ghost a {color: #40acea;padding: 16px 16px 16px 16px; mso-border-alt: 1px solid #ffffff}
+.email-code .button_ghost:hover {border-color: #999999 !important;}
+
+.email-code .button_href {width: 100% !important;}
+
+.email-code .label_orange, .email-code .label_purple {border-radius: 3px !important; padding: 4px 6px 5px 6px !important; color: #ffffff !important}
+.email-code .label_orange {background-color: #ff6600 !important;}
+.email-code .label_purple {background-color: #68007A !important;}
+.email-code .label_blue {background-color: #0090E3 !important; border-radius: 3px !important; padding: 2px 8px;  color: #ffffff !important}
+
+.email-code .box_round_corners {display: block !important; border-radius: 3px !important;}
+
+.email-code .leaderboard_experience, .email-code .leaderboard_experience_producttype {background-size: 608px !important; border-radius: 3px 3px 3px 3px !important;}
+.email-code .leaderboard_experience_contentblock {padding: 16px 16px 16px 0px !important;} 
+.email-code .leaderboard_experience_content {padding: 24px 24px 20px 0px !important; background-color: #fffffe !important; border-radius: 3px 3px 3px 3px !important;} 
+.email-code .leaderboard_experience_h3, .email-code .leaderboard_h3 {font-size: 15px !important; color: #0090e3;}
+.email-code p.leaderboard_experience_coolblueskeuze, .email-code p.leaderboard_coolblueskeuze {font-size: 13px !important; color: #333333 !important;}
+.email-code p.leaderboard_experience_price_for, .email-code p.leaderboard_price_for {font-weight: bold !important; font-size: 15px !important; vertical-align: baseline !important;}
+.email-code p span.leaderboard_experience_price_from, .email-code p span.leaderboard_price_from {font-weight: normal !important; font-size: 13px !important; color: #dddddd !important; text-decoration: line-through !important;}
+.email-code p span.leaderboard_experience_price_advice, .email-code p span.leaderboard_price_advice {font-weight: normal !important; font-size: 13px !important; color: #dddddd !important;}
+
+@media only screen and (max-width:640px) {
+.email-code .leaderboard_experience, .email-code .leaderboard_experience_producttype {background-size: contain !important; border: 1px solid #dddddd !important; border-top: 0 !important; background-repeat: no-repeat !important;}
+.email-code .leaderboard_experience {background-image: url("~(ARTICLE_PROPERTY('LU_LEADERBOARD_EXPERIENCE_PRODUCT',0,'LEADERBOARD_BACKGROUND_IMAGE_MOBILE'))~") !important; }
+.email-code .leaderboard_experience_producttype {background-image: url("~(ARTICLE_PROPERTY('LU_LEADERBOARD_EXPERIENCE_PRODUCTTYPE',0,'LEADERBOARD_BACKGROUND_IMAGE_MOBILE'))~") !important; }
+.email-code .leaderboard_experience_contentblock {padding: 0px 20px 0px 20px !important;} 
+.email-code .leaderboard_experience_spacer {height: 200px !important;}
+.email-code .leaderboard_experience_content {padding: 20px 20px 16px 20px !important;}
+.email-code p.leaderboard_experience_price_for, .email-code p.leaderboard_price_for {font-size: 16px !important;}
+}
+@media only screen and (max-width:640px) {
+.email-code .block {display: block !important;}
+.email-code .hide {display: none !important;}
+
+.email-code .width_100p {min-width: 100% !important; width: 100% !important;}
+.email-code .width_90p {min-width: 90% !important; width: 90% !important;}
+.email-code .width_80p {min-width: 80% !important; width: 80% !important;}
+.email-code .width_70p {min-width: 70% !important; width: 70% !important;}
+.email-code .width_60p {min-width: 60% !important; width: 60% !important;}
+.email-code .width_50p {min-width: 50% !important; width: 50% !important;}
+.email-code .width_40p {min-width: 40% !important; width: 40% !important;}
+.email-code .width_30p {min-width: 30% !important; width: 30% !important;}
+.email-code .width_20p {min-width: 20% !important; width: 20% !important;}
+.email-code .width_10p {min-width: 10% !important; width: 10% !important;}
+
+.email-code .width_8px {width: 8px !important;}
+
+.email-code .padding_mob_8 {padding: 8px !important}
+.email-code .padding_mob_16 {padding: 16px !important}
+.email-code .padding_mob_24 {padding: 24px !important}
+
+.email-code .padding-top_mob_8 {padding-top: 8px !important}
+.email-code .padding-top_mob_16 {padding-top: 16px !important}
+.email-code .padding-top_mob_24 {padding-top: 24px !important}
+
+.email-code .padding-right_mob_8 {padding-right: 8px !important}
+.email-code .padding-right_mob_16 {padding-right: 16px !important}
+.email-code .padding-right_mob_24 {padding-right: 24px !important}
+
+.email-code .padding-bottom_mob_8 {padding-bottom: 8px !important;}
+.email-code .padding-bottom_mob_16 {padding-bottom: 16px !important;}
+.email-code .padding-bottom_mob_24 {padding-bottom: 24px !important;}
+
+.email-code .padding-left_mob_8 {padding-left: 8px !important}
+.email-code .padding-left_mob_16 {padding-left: 16px !important}
+.email-code .padding-left_mob_24 {padding-left: 24px !important}
+
+.email-code .no_padding {padding: 0px !important;}
+.email-code .no_padding-top {padding-top: 0px !important;}
+.email-code .no_padding-right {padding-right: 0px !important;}
+.email-code .no_padding-bottom {padding-bottom: 0px !important;}
+.email-code .no_padding-left {padding-left: 0px !important;}
+
+.email-code .height_auto {height: auto !important;}
+
+.email-code .intro_background {background-size: 608px !important}
+
+.email-code .servicemail_content {padding: 20px 0px 40px 0px !important;}
+.email-code .servicemail_gutter {width: 20px !important;}
+
+.email-code .height_auto {height: auto !important;}
+.email-code .line-height_normal {line-height: normal !important;}
+
+.email-code .spacer-top {width: 100% !important; height: 208px !important; }
+
+.email-code .direction_rtl {direction: rtl !important;}
+
+.email-code .border-bottom_grey_mobile {border-bottom: 1px solid #dddddd !important;}
+
+.email-code .no_border-bottom {border-bottom: 0px !important;}
+
+.email-code .image_swap_desktop {display:none !important; width:0px !important; height: 0px !important; overflow:hidden !important; line-height: 0px !important; font-size:0px !important;}
+.email-code .image_swap_mobile {display: block !important; max-height: none !important; max-width:none !important; line-height: 1.5 !important; width: 100% !important; height: auto !important;}
+.email-code .image_swap_mobile_inline {display: inline-block !important; max-height: none !important; max-width:none !important; line-height: 1.5 !important; height: auto !important;}
+
+.email-code .header_logo {width: auto !important; height: 44px !important;} 
+
+.email-code .text-align_mob_left {text-align: left !important;}
+.email-code .text-align_mob_right {text-align: right !important;}
+.email-code .text-align_mob_center {text-align: center !important;}
+}
+
+@media only screen and (max-width:420px) {
+.email-code .intro_background {background-size: 350px !important;}
+.email-code .spacer-top {height: 100px !important;}
+}
+
+@media only screen and (max-width:320px) {
+.email-code .factslogan {width: 100% !important}
+}
+
+
+.email-code .button {transition-property: background, border; transition-duration: 0.1s; transition-timing-function: linear; transition-delay: initial; cursor: pointer;}  
+
+.email-code input.searchbar {width: 100% !important; display: block !important;}
