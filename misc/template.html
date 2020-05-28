@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title>Coolblue - Email Development Pages</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+  <link href="/style/style.css" rel="stylesheet">
+  <link href="/style/fonts.css" rel="stylesheet">
+  <link href="/style/email.css" rel="stylesheet">
+  <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+
+  <script src="https://kit.fontawesome.com/1332795812.js" crossorigin="anonymous"></script>
+ </head>
+ <body class="w-full">
+  <div class="grid xl:grid-cols-12 gap-0 xl:h-screen">
+   <!--Sidebar-->
+   <div class="xl:col-span-2 bg-coolblue" id="sidebar">
+   </div>
+   <!--Content-->
+   <div class="xl:col-span-10">
+    <div class="mt-8 xl:mt-24">
+     <div class="my-4 mx-4 xl:mx-8">
+      <div>
+       <h2 class="text-blue-darkblue text-4xl -mt-2">
+        H2 - Page title<span class="text-orange-coolblue">.</span>
+       </h2>
+       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque blanditiis ad sed aspernatur quae atque eos soluta nesciunt rem numquam, placeat eveniet nemo adipisci similique consequatur neque eius, cumque corrupti!</p>
+       <h3 class="mt-4">
+        H3 - Heading
+       </h3>
+       <div class="mt-2 border rounded divide-y">
+        <div class="p-2 flex">
+         <div class="w-1/4 items-center flex">
+          <p class="font-bold text-sm">
+           Table
+          </p>
+         </div>
+         <div class="w-3/4 items-center flex">
+          <p class="text-sm">
+           Data
+          </p>
+         </div>
+        </div>
+        <div class="p-2 flex">
+         <div class="w-1/4 items-center flex">
+          <p class="font-bold text-sm">
+           Table
+          </p>
+         </div>
+         <div class="w-3/4 items-center flex">
+          <p class="text-sm">
+           <span class="inline-block rounded bg-orange-coolblue px-2 py-1 text-xs font-bold text-white label">Label</span>
+           <span class="inline-block rounded bg-purple-coolblue px-2 py-1 text-xs font-bold text-white label">Label</span>
+           <span class="inline-block rounded bg-green-coolblue px-2 py-1 text-xs font-bold text-white label">Label</span>
+           <span class="inline-block rounded bg-red-coolblue px-2 py-1 text-xs font-bold text-white label">Label</span>
+          </p>
+         </div>
+        </div>
+       </div>
+       <h3 class="mt-4">
+        H3 - Email embed
+       </h3>
+       <div class="flex mt-2">
+        <div class="embed-desktop border rounded inline-block">
+         <iframe src="/examples/example_prospecting_newsletter_nlnl.html" class="large"></iframe>
+        </div>
+        <div class="embed-mobile lg:ml-4 border rounded inline-block">
+         <iframe src="/examples/example_prospecting_newsletter_nlnl.html" class="large"></iframe>
+        </div>
+       </div>
+       <h3 class="mt-4">
+        H3 - Element
+       </h3>
+       <div class="mt-2 flex">
+        <div class="flex">
+         <div class="embed-desktop email-code border rounded py-4">
+          <table width="100%">
+           <tr>
+            <td align="center">
+             <table role="presentation" width="640" class="width_100p">
+              <tr>
+               <td width="16">&nbsp;</td>
+               <td width="608" align="center" valign="top">
+                <table role="presentation" width="100%" class="border-bottom_grey">
+                 <tr>
+                  <th width="400" class="width_100p block" style="text-align: left; vertical-align: top">
+                   <table role="presentation" width="100%">
+                    <tr>
+                     <td style="padding: 24px 0px 8px 0px">
+                      <p style="font-weight: bold;">Hoi [naam],</p>
+                     </td>
+                    </tr>
+                    <tr>
+                     <td style="padding: 0px 0px 16px 0px;">
+                      <p id="element_introductions_v1_area1_output">Intro - 40 characters</p>
+                     </td>
+                    </tr>
+                    <tr>
+                     <td style="padding: 0px 0px 16px 0px" align="left">
+                      <table role="presentation" style="border-collapse: separate" class="width_100p button">
+                       <tr>
+                        <td class="button_darkblue button width_100p">
+                         <a href="#" class="link_white">
+                          <!--[if (gte mso 9)|(IE)]>&nbsp;&nbsp;<![endif]-->
+                           <span style="vertical-align: top; mso-text-raise: 2px" id="element_introductions_v1_button_output">
+                            Text button - 20 characters
+                           </span>
+                          <!--[if (gte mso 9)|(IE)]>&nbsp;&nbsp;<![endif]-->
+                         </a>
+                        </td>
+                       </tr>
+                      </table>
+                     </td>
+                    </tr>
+                    <tr>
+                     <td style="padding: 0px 0px 24px 0px;">
+                      <p>
+                       <p id="element_introductions_v1_area2_output">Outro - 40 characters</p>
+                      </p>
+                     </td>
+                    </tr>
+                   </table>
+                  </th>
+                  <th width="16" class="hide">
+                   &nbsp;
+                  </th>
+                  <th width="192" class="width_100p" style="vertical-align: bottom">
+                   <table role="presentation" width="100%">
+                    <tr>
+                     <td>
+                      <a href="#">
+                       <img id="element_introductions_v1_image_output" src="/img/specialist_regular.jpg" width="192" height="auto" style="vertical-align: bottom" alt="Image" role="presentation">
+                      </a>
+                     </td>
+                    </tr>
+                   </table>
+                  </th>
+                 </tr>
+                </table>
+               </td>
+               <td width="16">&nbsp;</td>
+              </tr>
+             </table>
+            </td>
+           </tr>
+          </table>
+         </div>
+        </div>
+        <div class="ml-4 w-2/6">
+         <div class="flex mb-2">
+          <div class="w-1/6 flex">
+           <label for="element_introductions_v1_area1">
+            <h4>
+             Intro
+            </h4>
+           </label>
+          </div>
+          <div class="w-5/6 flex items-center">
+           <textarea id="element_introductions_v1_area1" name="element_introductions_v1_area1" class="text-sm border rounded-sm px-4 py-1 w-full" placeholder="Enter some text - Max 200 characters" maxlength="200"></textarea>
+          </div>
+         </div>
+         <div class="flex mb-2">
+          <div class="w-1/6 flex items-center">
+           <h4>
+            Button
+           </h4>
+          </div>
+          <div class="w-5/6 flex items-center">
+           <input placeholder="Enter some text" id="element_introductions_v1_button" name="element_introductions_v1_button" class="text-sm border rounded-sm px-4 py-1 w-full"/>
+          </div>
+         </div>
+         <div class="flex mb-2">
+          <div class="w-1/6 flex">
+           <h4>
+            Outro
+           </h4>
+          </div>
+          <div class="w-5/6 flex items-center">
+           <textarea id="element_introductions_v1_area2" name="element_introductions_v1_area2" class="text-sm border rounded-sm px-4 py-1 w-full" placeholder="Enter some text"></textarea>
+          </div>
+         </div>
+         <div class="flex mb-2">
+          <div class="w-1/6 flex items-center">
+           <label for="element_introductions_v1_image">
+           <h4>
+            Image
+           </h4>
+          </label>
+          </div>
+          <div class="w-5/6 flex items-center">
+           <input type="file" accept="image/gif, image/jpeg, image/png" name="image" id="element_introductions_v1_image" onchange="loadFile(event)" style="display: none">
+           <label for="element_introductions_v1_image" class="bg-coolblue text-white text-xs rounded py-2 px-4">
+            Upload image
+           </label>
+           <span class=" text-xs text-gray-700 italic ml-4">Dimensions: 384 pixels wide</span>
+          </div>
+         </div>
+        </div>      
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+  <script src="/js/script.js"></script>
+ </body>
+</html>
