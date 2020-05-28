@@ -1,19 +1,23 @@
 <div class="flex xl:block">
- <div class="w-24 -mt-5 -ml-3 xl:-mt-8 xl:-ml-4 xl:w-32">
+ <div class="w-24 -mt-5 -ml-3 xl:-mt-8 xl:-ml-4 xl:w-32 flex">
   <a href="/index.html">
    <img src="/img/cbLogo.png" width="100%" alt="Coolblue">
   </a>
  </div>
- <div class="mt-8 ml-4 mr-4 mb-4 xl:mt-4">
-  <h1 class="text-white font-bold text-xl">
+ <div class="flex items-center ml-4">
+  <h1 class="text-white font-bold sm:text-lg md:text-xl lg:text-2xl xl:text-2xl xl:mt-8">
    Email Development Pages<span class="text-orange-coolblue">.</span>
   </h1>
+ </div>
+ <div class="flex items-center ml-auto mr-4">
+  <button class="text-white font-bold text-xl dropdown xl:hidden">
+   <i class="fas fa-bars"></i>
+  </button>
  </div>
 </div>
 <div>
  <div class="m-4">
-  <button class="text-left text-white font-bold text-3xl menu-button float-right -mt-16 xl:-mt-20 flex xl:hidden"><i class="fas fa-angle-down"></i></button>
-  <div class="divide-y divide-white hidden xl:block">
+  <div class="divide-y divide-white hidden xl:block" id="topmenu">
    <!--Welcome-->
    <div class="py-4 menu">
     <div class="w-full text-left text-white font-bold text-sm">

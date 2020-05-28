@@ -7,7 +7,23 @@ oReq.send();
 
 function reqListener () {
  sidebar.innerHTML = this.responseText;
- // Menu
+ // Dropdown mobile
+ var dropdown = document.getElementsByClassName("dropdown");
+ var i;
+
+ for (i=0;i < dropdown.length; i++){
+  dropdown[i].addEventListener("click", function() {
+   this.classList.toggle("active");
+   var topmenu = document.querySelector('#topmenu');
+   if (topmenu.style.display === "block") {
+    topmenu.style.display = "none";
+   } else {
+    topmenu.style.display = "block";
+   }
+  });
+ }
+
+ // Menu items
  var menu = document.getElementsByClassName("menu-button");
  var i;
 
