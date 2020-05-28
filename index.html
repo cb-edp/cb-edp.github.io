@@ -1,108 +1,20 @@
 <!DOCTYPE html>
 <html>
  <head>
+  <title>Coolblue - Email Development Pages</title>
+
   <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+  <link href="/style/style.css" rel="stylesheet">
+  <link href="/style/fonts.css" rel="stylesheet">
+  <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
   <script src="https://kit.fontawesome.com/1332795812.js" crossorigin="anonymous"></script>
-  <style>
-   * {font-family: 'Open Sans',Arial,Helvetica,Verdana,sans-serif;}
-   h1, h2, h3, h4 {font-family: 'AvenirBlack',Arial,Helvetica,Verdana,sans-serif; text-transform: uppercase;}
-
-   /*div {border: 1px solid #dddddd}*/
-
-   /* Coolblue styling*/
-   .bg-coolblue {background-color: #0090e3;}
-   .text-orange-coolblue {color: #ff6600}
-   .text-blue-darkblue {color: #285dab;}
-
-   /* Icon styling */
-   .fa-angle-right {opacity: 0.8;}
-   .active .fa-angle-right {opacity: 1; transform: rotate(90deg); transition: 0.2s}
-  </style>
-  <style type="text/css">
-   /* open-sans-regular - latin */
-   @font-face {
-     font-family: 'Open Sans';
-     font-style: normal;
-     font-weight: 400;
-     font-display: swap;
-     src: url('https://assets.coolblue.nl/fonts/open-sans-v14-latin-regular.eot');
-     src: local('Open Sans Regular'), local('OpenSans-Regular'),
-     url('https://assets.coolblue.nl/fonts/open-sans-v14-latin-regular.woff2') format('woff2'),
-     url('https://assets.coolblue.nl/fonts/open-sans-v14-latin-regular.woff') format('woff'),
-     url('https://assets.coolblue.nl/fonts/open-sans-v14-latin-regular.ttf') format('truetype'),
-     url('https://assets.coolblue.nl/fonts/open-sans-v14-latin-regular.svg#OpenSans') format('svg');
-   }
-   
-   /* open-sans-600 - latin */
-   @font-face {
-     font-family: 'Open Sans';
-     font-style: normal;
-     font-weight: 600;
-     font-display: swap;
-     src: url('https://assets.coolblue.nl/fonts/open-sans-v14-latin-600.eot');
-     src: local('Open Sans SemiBold'), local('OpenSans-SemiBold'),
-     url('https://assets.coolblue.nl/fonts/open-sans-v14-latin-600.woff2') format('woff2'),
-     url('https://assets.coolblue.nl/fonts/open-sans-v14-latin-600.woff') format('woff'),
-     url('https://assets.coolblue.nl/fonts/open-sans-v14-latin-600.ttf') format('truetype'),
-     url('https://assets.coolblue.nl/fonts/open-sans-v14-latin-600.svg#OpenSans') format('svg');
-   }
-   
-   /* open-sans-700 - latin */
-   @font-face {
-     font-family: 'Open Sans';
-     font-style: normal;
-     font-weight: 700;
-     font-display: swap;
-     src: url('https://assets.coolblue.nl/fonts/open-sans-v14-latin-700.eot');
-     src: local('Open Sans Bold'), local('OpenSans-Bold'),
-     url('https://assets.coolblue.nl/fonts/open-sans-v14-latin-700.woff2') format('woff2'),
-     url('https://assets.coolblue.nl/fonts/open-sans-v14-latin-700.woff') format('woff'),
-     url('https://assets.coolblue.nl/fonts/open-sans-v14-latin-700.ttf') format('truetype'),
-     url('https://assets.coolblue.nl/fonts/open-sans-v14-latin-700.svg#OpenSans') format('svg');
-   }
-   
-   @font-face {
-     font-family: 'AvenirBlack';
-     src: local(Avenir-Black),
-     local(AvenirBlack),
-     url('https://assets.coolblue.nl/fonts/aebl____-webfont.woff2') format('woff2'),
-     url('https://assets.coolblue.nl/fonts/aebl____-webfont.woff') format('woff'),
-     url('https://assets.coolblue.nl/fonts/aebl____-webfont.ttf') format('truetype');
-     font-style: normal;
-     font-weight: 900;
-     font-display: swap;
-   }
-   
-   @font-face {
-     font-family: 'DobraSlabBook';
-     src: local('DobraSlab-Book'),
-     local('DobraSlabBook'),
-     url('https://assets.coolblue.nl/fonts/dobraslab-book-webfont.woff2') format('woff2'),
-     url('https://assets.coolblue.nl/fonts/dobraslab-book-webfont.woff') format('woff'),
-     url('https://assets.coolblue.nl/fonts/dobraslab-book-webfont.ttf') format('truetype');
-     font-weight: 400;
-     font-style: normal;
-     font-display: swap;
-   }
-   
-   @font-face {
-     font-family: 'DobraSlabMedium';
-     src: local('DobraSlab-Medium'),
-     local('DobraSlabMedium'),
-     url('https://assets.coolblue.nl/fonts/dobraslab-medium-webfont.woff2') format('woff2'),
-     url('https://assets.coolblue.nl/fonts/dobraslab-medium-webfont.woff') format('woff'),
-     url('https://assets.coolblue.nl/fonts/dobraslab-medium-webfont.ttf') format('truetype');
-     font-weight: 500;
-     font-style: normal;
-     font-display: swap;
-   }
-  </style>
  </head>
- <body>
+ <body class="w-100">
   <div class="grid lg:grid-cols-12 gap-0 lg:h-screen">
-   <div class="lg:col-span-4 xl:col-span-3 bg-coolblue">
-    <div class="flex">
-     <div class="-mt-8 -ml-4 w-32 sm:flex-auto md:flex-none">
+   <!--Sidebar-->
+   <div class="lg:col-span-4 xl:col-span-2 bg-coolblue">
+    <div class="">
+     <div class="-mt-8 -ml-4 w-32">
       <a href="https://cb-edp.github.io/">
        <img src="img/cbLogo.png" width="100%" alt="Coolblue">
       </a>
@@ -112,37 +24,133 @@
        Email Development Pages<span class="text-orange-coolblue">.</span>
       </h1>
      </div>
-   </div>
-    <div class="m-4">
-     <div class="divide-y divide-white">
-      <div class="py-4 menu">
-       <button class="w-full text-left text-white font-bold text-sm menu-button">Welcome <span class="float-right"><i class="fas fa-angle-right"></i></span></button>
-       <div class="text-white text-sm pl-2 border-l-2 border-blue-300 mt-2 hidden">
-        <ul>
-         <li class="py-1">
-          <a href="#" class="hover:underline">Item 1</a>
-         </li>
-         <li class="py-1">
-          <a href="#" class="hover:underline">Item 2</a>
-         </li>
-         <li class="py-1">
-          <a href="#" class="hover:underline">Item 3</a>
-         </li>
-        </ul>
+    </div>
+    <div>
+     <div class="m-4">
+      <button class="text-left text-white font-bold text-3xl menu-button float-right -mt-32 flex md:hidden lg:hidden xl:hidden"><i class="fas fa-angle-down"></i></button>
+      <div class="divide-y divide-white hidden md:block">
+       <!--Welcome-->
+       <div class="py-4 menu">
+        <div class="w-full text-left text-white font-bold text-sm">
+         <a href="/index.html">
+          Welcome <span class="float-right"><i class="fas fa-angle-right"></i></span>
+         </a>
+        </div>
        </div>
-      </div>
-      <div>
-       2
+       <!--Information-->
+       <div class="py-4 menu">
+        <button class="w-full text-left text-white font-bold text-sm menu-button">Information <span class="float-right"><i class="fas fa-angle-right"></i></span></button>
+        <div class="text-white text-sm pl-2 border-l-2 border-blue-300 mt-2 hidden">
+         <ul>
+          <li class="py-1">
+           <a href="#" class="hover:underline">About</a>
+          </li>
+          <li class="py-1">
+           <a href="#" class="hover:underline">Status</a>
+          </li>
+          <li class="py-1">
+           <a href="#" class="hover:underline">Changelog</a>
+          </li>
+         </ul>
+        </div>
+       </div>
+       <!--Elements-->
+       <div class="py-4 menu">
+        <button class="w-full text-left text-white font-bold text-sm menu-button">Elements <span class="float-right"><i class="fas fa-angle-right"></i></span></button>
+        <div class="text-white text-sm pl-2 border-l-2 border-blue-300 mt-2 hidden">
+         <ul>
+          <li class="py-1">
+           <a href="#" class="hover:underline">Frameworks</a>
+          </li>
+          <li class="py-1">
+           <a href="#" class="hover:underline">Header</a>
+          </li>
+          <li class="py-1">
+           <a href="#" class="hover:underline">Body</a>
+          </li>
+          <li class="py-1">
+           <a href="#" class="hover:underline">Footer</a>
+          </li>
+         </ul>
+        </div>
+       </div>
+       <!--Mails-->
+       <div class="py-4 menu">
+        <button class="w-full text-left text-gray-500 font-bold text-sm">Emails <span class="float-right"><i class="fas fa-angle-right"></i></span></button>
+        <div class="text-white text-sm pl-2 border-l-2 border-blue-300 mt-2 hidden">
+         <ul>
+          <li class="py-1">
+           <a href="#" class="hover:underline">Item 1</a>
+          </li>
+          <li class="py-1">
+           <a href="#" class="hover:underline">Item 2</a>
+          </li>
+          <li class="py-1">
+           <a href="#" class="hover:underline">Item 3</a>
+          </li>
+         </ul>
+        </div>
+       </div>
+       <!--Miscellanious-->
+       <div class="py-4 menu">
+        <button class="w-full text-left text-white font-bold text-sm menu-button">Miscellaneous <span class="float-right"><i class="fas fa-angle-right"></i></span></button>
+        <div class="text-white text-sm pl-2 border-l-2 border-blue-300 mt-2 hidden">
+         <ul>
+          <li class="py-1">
+           <a href="#" class="hover:underline">Links</a>
+          </li>
+          <li class="py-1">
+           <a href="#" class="hover:underline">Tools</a>
+          </li>
+          <li class="py-1">
+           <a href="#" class="hover:underline">Contact</a>
+          </li>
+         </ul>
+        </div>
+       </div>
       </div>
      </div>
     </div>
    </div>
-   <div class="lg:col-span-8 xl:col-span-9">
-    <div class="mt-24">
-     <div class="my-4 mx-8">
-      <h2 class="text-blue-darkblue text-4xl -mt-2">
-       Page title<span class="text-orange-coolblue">.</span>
-      </h2>
+   <!--Content-->
+   <div class="lg:col-span-8 xl:col-span-10">
+    <div class="mt-8 lg:mt-24">
+     <div class="my-4 mx-4 lg:mx-8">
+      <div>
+       <h2 class="text-blue-darkblue text-4xl -mt-2">
+        H2 - Page title<span class="text-orange-coolblue">.</span>
+       </h2>
+       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque blanditiis ad sed aspernatur quae atque eos soluta nesciunt rem numquam, placeat eveniet nemo adipisci similique consequatur neque eius, cumque corrupti!</p>
+       <h3 class="mt-4">
+        H3 - Heading
+       </h3>
+       <div class="mt-2 border rounded divide-y">
+        <div class="p-2 flex">
+         <div class="w-1/4">
+          <p class="font-bold text-sm">
+           Table
+          </p>
+         </div>
+         <div class="w-3/4">
+          <p class="text-sm">
+           Data
+          </p>
+         </div>
+        </div>
+        <div class="p-2 flex">
+         <div class="w-1/4 align-middle">
+          <p class="font-bold text-sm">
+           Table
+          </p>
+         </div>
+         <div class="w-3/4">
+          <p class="text-sm">
+           <span class="inline-block rounded bg-orange-coolblue px-2 py-1 text-xs font-bold text-white label">Label</span> <span class="inline-block rounded bg-purple-coolblue px-2 py-1 text-xs font-bold text-white label">Label</span> <span class="inline-block rounded bg-green-coolblue px-2 py-1 text-xs font-bold text-white label">Label</span> <span class="inline-block rounded bg-red-coolblue px-2 py-1 text-xs font-bold text-white label">Label</span>
+          </p>
+         </div>
+        </div>
+       </div>
+      </div>
      </div>
     </div>
    </div>

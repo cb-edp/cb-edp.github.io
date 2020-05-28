@@ -1,0 +1,21 @@
+* {font-family: 'Open Sans',Arial,Helvetica,Verdana,sans-serif;}
+h1, h2, h3, h4 {font-family: 'AvenirBlack',Arial,Helvetica,Verdana,sans-serif; text-transform: uppercase;}
+
+span.label {font-family: 'DobraSlabBook','Open Sans',Arial,Helvetica,Verdana,sans-serif; text-transform: lowercase; letter-spacing: 1.2px; -webkit-font-smoothing: antialiased;}
+
+/*div {border: 1px solid #dddddd}*/
+
+/* Coolblue styling*/
+.bg-coolblue {background-color: #0090e3;}
+.bg-green-coolblue {background-color: #00b900}
+.bg-orange-coolblue {background-color: #ff6600;}
+.bg-purple-coolblue {background-color: #68007a}
+.bg-red-coolblue {background-color: #e50000;}
+
+.text-orange-coolblue {color: #ff6600}
+.text-blue-coolblue {color: #0090e3;}
+.text-blue-darkblue {color: #285dab;}
+
+/* Icon styling */
+.fa-angle-right {opacity: 0.8;}
+.active .fa-angle-right {opacity: 1; transform: rotate(90deg); transition: 0.2s}
