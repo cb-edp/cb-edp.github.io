@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
  <head>
-  <title>Coolblue - Email Development Pages</title>
+  <title>Coolblue - Email Development System</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
@@ -20,11 +20,115 @@
    <!--Content-->
    <div class="xl:col-span-10">
     <div class="mt-8 xl:mt-24">
-     <div class="my-4 mx-4 xl:mx-8">
-      <div>
+     <div class="my-4 mx-auto xl:mx-8 w-5/6 divide-y divide-gray-300">
+      <div class="pb-8">
        <h2 class="text-blue-darkblue text-4xl -mt-2">
         Welcome<span class="text-orange-coolblue">.</span>
        </h2>
+       <p>
+        <em>Email is dead, they said.</em> Looking at your inbox proves the difference, but understanding email is no simple task. This website aims to help you sent the best email possible as a Coolblue-employee or team. Here we guide you through the basic principles of building an email in HTML and providing the building blocks to create them.
+       </p>
+      </div>
+      <div class="py-8">
+       <h3 class="pb-2">Getting started</h3>
+       <p>The email development system serves multiple purposed, but our main goal is to guide you through the possibilities of HTML emails, like the ones we use for our marketing purposes. Therefor we divided this system into multiple sections.</p>
+       <div class="mt-8 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
+        <a href="">
+         <div class="p-4 border-gray-300 hover:border-gray-500 duration-200 border rounded text-center">
+          <i class="far fa-book-spells text-6xl text-blue-coolblue mb-4"></i>
+          <h4>Email Development 101</h4>
+          <p class="text-sm">Learn the basics of email development.</p>
+          <div class="mt-4">
+           <p class="text-sm text-blue-coolblue"><i class="fas fa-angle-right"></i> <span class="hover:underline">Read more</span></p>
+          </div>
+         </div>
+        </a>
+        <a href="">
+         <div class="p-4 border-gray-300 hover:border-gray-500 duration-200 border rounded text-center">
+          <i class="fas fa-cubes text-6xl text-blue-coolblue mb-4"></i>
+          <h4>Email components</h4>
+          <p class="text-sm">The building blocks of our email templates and campaigns.</p>
+          <div class="mt-4">
+           <p class="text-sm text-blue-coolblue"><i class="fas fa-angle-right"></i> <span class="hover:underline">Read more</span></p>
+          </div>
+         </div>
+        </a>
+        <a href="">
+         <div class="p-4 border-gray-300 hover:border-gray-500 duration-200 border rounded text-center">
+          <i class="far fa-mail-bulk text-6xl text-blue-coolblue mb-4"></i>
+          <h4>Email templates</h4>
+          <p class="text-sm">An overview of our recurring campaigns and build templates.</p>
+          <div class="mt-4">
+           <p class="text-sm text-blue-coolblue"><i class="fas fa-angle-right"></i> <span class="hover:underline">Read more</span></p>
+          </div>
+         </div>
+        </a>
+        <a href="">
+         <div class="p-4 border-gray-300 hover:border-gray-500 duration-200 border rounded text-center">
+          <i class="far fa-cogs text-6xl text-blue-coolblue mb-4"></i>
+          <h4>Tools</h4>
+          <p class="text-sm">Handy tools and other information to get you going.</p>
+          <div class="mt-4">
+           <p class="text-sm text-blue-coolblue"><i class="fas fa-angle-right"></i> <span class="hover:underline">Read more</span></p>
+          </div>
+         </div>
+        </a>
+       </div>
+      </div>
+      <div class="py-8">
+       <h3 class="pb-2">
+        Why do we have an email development system? <em>Needs a rewrite, copied it</em>
+       </h3>
+       <p class="pb-4">
+        <strong class="uppercase text-blue-darkblue">Consistency</strong> It gives us well defined documentation so everyone who touches emails at Treehouse will be on the same page. A consistent email design language which aligns with our brand allows our users to become immersed in the full Treehouse experience.
+       </p>
+       <p>
+        <strong class="uppercase text-blue-darkblue">Efficiency</strong> This guide takes the guesswork out of email design to make it an easier process. With the templates and reusable components, you no longer have to reinvent the wheel as you embark on creating an email. Common patterns are already defined, and all you have to do is replace the content. Also, there's no more fighting with inline styles, as the CSS is contained in a central place. And to top it all off, you're able to start with a stable foundation that has already been thoroughly tested.
+       </p>
+      </div>
+      <div class="py-8">
+       <h3 class="pb-2">
+        How is it organized?
+       </h3>
+       <p class="pb-4">
+        The email development system provides guidelines and tools for the visual creation of our emails. You will not find any of our regularly maintained code here, but instead will find visual representations of our emails and the components they use.
+       </p>
+       <ul class="list-disc list-inside">
+        <li class="mb-2">
+         <span class="text-blue-darkblue font-bold">Information</span> about what you need to know when building emails in HTML, like basic frameworks and rules to adhere to.
+        </li>
+        <li class="mb-2">
+         <span class="text-blue-darkblue font-bold">Components</span> that we use to create our emails in both our marketing ESP and in-house software.
+         <ul class="list-disc list-inside ml-6">
+          <li class="text-gray-500 my-2">
+           <span class="text-blue-darkblue font-bold">Frameworks</span> <span class="text-black">are used to define our basics in email development. A set of CSS rules and a basic template to put our elements into.</span>
+          </li>
+          <li class="text-gray-500 my-2">
+           <span class="text-blue-darkblue font-bold">Header</span> <span class="text-black">contains all elements related to the header section of the email. Pieces like the blue logo bar and USP's at the top of an email.</span>
+          </li>
+          <li class="text-gray-500 my-2">
+           <span class="text-blue-darkblue font-bold">Body</span> <span class="text-black">containing all content elements in a mail. Product positions, leaderboards, blog items and so on.</span>
+          </li>
+          <li class="text-gray-500 my-2">
+           <span class="text-blue-darkblue font-bold">Footer</span> <span class="text-black">is in regards to all the elements we use to close off an email. Close Alert, the footer and more.</span>
+          </li>
+         </ul>
+        </li>
+        <li class="mb-2">
+         <span class="text-blue-darkblue font-bold">Templates</span> that show you the kind of emails that are already being sent and how you can use and combine different components that are already available.
+        </li>
+        <li class="mb-2">
+         <span class="text-blue-darkblue font-bold">Tools</span> to help you get started with email development, to try new combinations of components and to see how they look together without even having to code anything.
+        </li>
+       </ul>
+      </div>
+      <div class="py-8">
+       <h3 class="pb-2">
+        Need help?
+       </h3>
+       <p class="pb-4">
+        Confused by what all the mumbo-jumbo means, or do you want advice on how to proceed with email development? Let us know! Check out the <a href="/misc/contact.html" class="text-blue-coolblue hover:underline">contact page</a> or hit us up on Slack in the channel <span class="font-bold">#emaildevelopment</span>.
+       </p>
       </div>
      </div>
     </div>
