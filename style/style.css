@@ -1,7 +1,7 @@
 * {font-family: 'Open Sans',Arial,Helvetica,Verdana,sans-serif;}
 h1, h2, h3, h4 {font-family: 'AvenirBlack',Arial,Helvetica,Verdana,sans-serif;}
 h1, h2, h3 {text-transform: uppercase;}
-span.label {font-family: 'DobraSlabBook','Open Sans',Arial,Helvetica,Verdana,sans-serif; text-transform: lowercase; letter-spacing: 1.2px; -webkit-font-smoothing: antialiased;}
+span.label {font-family: 'DobraSlabMedium','Open Sans',Arial,Helvetica,Verdana,sans-serif; text-transform: lowercase; letter-spacing: 1.2px; -webkit-font-smoothing: antialiased;}
 
 /*div {border: 1px solid #dddddd}*/
 
