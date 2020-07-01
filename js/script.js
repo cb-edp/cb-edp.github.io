@@ -41,7 +41,7 @@ function reqListener () {
 }
 
 // Dynamic input
-// const input = document.querySelector('input,textarea');
+// const input = document.getElementById('element_introductions_v1_area1');
 // const log = document.getElementById('element_introductions_v1_area1_output');
 
 // input.addEventListener('input', updateValue);
@@ -50,8 +50,25 @@ function reqListener () {
 //   log.textContent = e.target.value;
 // }
 
+// Dynamic input-output v2
+const input = document.querySelectorAll('.input');
+const output = document.querySelectorAll('.output');
+console.log(input);
+
+
+
+
+for(let i = 0; i < input.length; i++) {
+ console.log(input[i]);
+ input[i].addEventListener('input',function(){updateValue(e,output[i])})
+};
+
+function updateValue(e,target) {
+ target.textContent = e.target.value;
+}
+
 // Dynamic image
-// var loadFile = function(event) {
-// 	var image = document.getElementById('element_introductions_v1_image_output');
-// 	image.src = URL.createObjectURL(event.target.files[0]);
-// };
+var loadFile = function(event) {
+	var image = document.getElementById('element_introductions_v1_image_output');
+	image.src = URL.createObjectURL(event.target.files[0]);
+};

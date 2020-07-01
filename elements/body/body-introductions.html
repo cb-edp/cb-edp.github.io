@@ -15,105 +15,7 @@
  <body class="w-full">
   <div class="grid xl:grid-cols-12 gap-0 xl:h-screen">
    <!--Sidebar-->
-   <div class="xl:col-span-2 bg-coolblue">
-    <div class="flex xl:block">
-     <div class="w-24 -mt-5 -ml-3 xl:-mt-8 xl:-ml-4 xl:w-32">
-      <a href="/index.html">
-       <img src="/img/cbLogo.png" width="100%" alt="Coolblue">
-      </a>
-     </div>
-     <div class="mt-8 ml-4 mr-4 mb-4 xl:mt-4">
-      <h1 class="text-white font-bold text-xl">
-       Email Development Pages<span class="text-orange-coolblue">.</span>
-      </h1>
-     </div>
-    </div>
-    <div>
-     <div class="m-4">
-      <button class="text-left text-white font-bold text-3xl menu-button float-right -mt-16 xl:-mt-20 flex xl:hidden"><i class="fas fa-angle-down"></i></button>
-      <div class="divide-y divide-white hidden xl:block">
-       <!--Welcome-->
-       <div class="py-4 menu">
-        <div class="w-full text-left text-white font-bold text-sm">
-         <a href="/index.html">
-          Welcome <span class="float-right"><i class="fas fa-angle-right"></i></span>
-         </a>
-        </div>
-       </div>
-       <!--Information-->
-       <div class="py-4 menu">
-        <button class="w-full text-left text-white font-bold text-sm menu-button">Information <span class="float-right"><i class="fas fa-angle-right"></i></span></button>
-        <div class="text-white text-sm pl-2 border-l-2 border-blue-300 mt-2 hidden">
-         <ul>
-          <li class="py-1">
-           <a href="#" class="hover:underline">About</a>
-          </li>
-          <li class="py-1">
-           <a href="#" class="hover:underline">Status</a>
-          </li>
-          <li class="py-1">
-           <a href="#" class="hover:underline">Changelog</a>
-          </li>
-         </ul>
-        </div>
-       </div>
-       <!--Elements-->
-       <div class="py-4 menu">
-        <button class="w-full text-left text-white font-bold text-sm menu-button">Elements <span class="float-right"><i class="fas fa-angle-right"></i></span></button>
-        <div class="text-white text-sm pl-2 border-l-2 border-blue-300 mt-2 hidden">
-         <ul>
-          <li class="py-1">
-           <a href="#" class="hover:underline">Frameworks</a>
-          </li>
-          <li class="py-1">
-           <a href="#" class="hover:underline">Header</a>
-          </li>
-          <li class="py-1">
-           <a href="#" class="hover:underline">Body</a>
-          </li>
-          <li class="py-1">
-           <a href="#" class="hover:underline">Footer</a>
-          </li>
-         </ul>
-        </div>
-       </div>
-       <!--Mails-->
-       <div class="py-4 menu">
-        <button class="w-full text-left text-gray-500 font-bold text-sm">Emails <span class="float-right"><i class="fas fa-angle-right"></i></span></button>
-        <div class="text-white text-sm pl-2 border-l-2 border-blue-300 mt-2 hidden">
-         <ul>
-          <li class="py-1">
-           <a href="#" class="hover:underline">Item 1</a>
-          </li>
-          <li class="py-1">
-           <a href="#" class="hover:underline">Item 2</a>
-          </li>
-          <li class="py-1">
-           <a href="#" class="hover:underline">Item 3</a>
-          </li>
-         </ul>
-        </div>
-       </div>
-       <!--Miscellanious-->
-       <div class="py-4 menu">
-        <button class="w-full text-left text-white font-bold text-sm menu-button">Miscellaneous <span class="float-right"><i class="fas fa-angle-right"></i></span></button>
-        <div class="text-white text-sm pl-2 border-l-2 border-blue-300 mt-2 hidden">
-         <ul>
-          <li class="py-1">
-           <a href="#" class="hover:underline">Links</a>
-          </li>
-          <li class="py-1">
-           <a href="#" class="hover:underline">Tools</a>
-          </li>
-          <li class="py-1">
-           <a href="#" class="hover:underline">Contact</a>
-          </li>
-         </ul>
-        </div>
-       </div>
-      </div>
-     </div>
-    </div>
+   <div class="xl:col-span-2 bg-coolblue" id="sidebar">
    </div>
    <!--Content-->
    <div class="xl:col-span-10">
@@ -191,7 +93,7 @@
                     </tr>
                     <tr>
                      <td style="padding: 0px 0px 16px 0px;">
-                      <p id="element_introductions_v1_area1_output">Intro - 40 characters</p>
+                      <p class="output">Intro - 40 characters</p>
                      </td>
                     </tr>
                     <tr>
@@ -201,7 +103,7 @@
                         <td class="button_darkblue button width_100p">
                          <a href="#" class="link_white">
                           <!--[if (gte mso 9)|(IE)]>&nbsp;&nbsp;<![endif]-->
-                           <span style="vertical-align: top; mso-text-raise: 2px" id="element_introductions_v1_button_output">
+                           <span style="vertical-align: top; mso-text-raise: 2px" class="output">
                             Text button - 20 characters
                            </span>
                           <!--[if (gte mso 9)|(IE)]>&nbsp;&nbsp;<![endif]-->
@@ -214,7 +116,7 @@
                     <tr>
                      <td style="padding: 0px 0px 24px 0px;">
                       <p>
-                       <p id="element_introductions_v1_area2_output">Outro - 40 characters</p>
+                       <p class="output">Outro - 40 characters</p>
                       </p>
                      </td>
                     </tr>
@@ -255,7 +157,7 @@
            </label>
           </div>
           <div class="w-5/6 flex items-center">
-           <textarea id="element_introductions_v1_area1" name="element_introductions_v1_area1" class="text-sm border rounded-sm px-4 py-1 w-full" placeholder="Enter some text - Max 200 characters" maxlength="200"></textarea>
+           <textarea id="element_introductions_v1_area1" name="element_introductions_v1_area1" class="text-sm border rounded-sm px-4 py-1 w-full input" placeholder="Enter some text - Max 200 characters" maxlength="200"></textarea>
           </div>
          </div>
          <div class="flex mb-2">
@@ -265,7 +167,7 @@
            </h4>
           </div>
           <div class="w-5/6 flex items-center">
-           <input placeholder="Enter some text" id="element_introductions_v1_button" name="element_introductions_v1_button" class="text-sm border rounded-sm px-4 py-1 w-full"/>
+           <input placeholder="Enter some text" id="element_introductions_v1_button" name="element_introductions_v1_button" class="text-sm border rounded-sm px-4 py-1 w-full input"/>
           </div>
          </div>
          <div class="flex mb-2">
@@ -275,7 +177,7 @@
            </h4>
           </div>
           <div class="w-5/6 flex items-center">
-           <textarea id="element_introductions_v1_area2" name="element_introductions_v1_area2" class="text-sm border rounded-sm px-4 py-1 w-full" placeholder="Enter some text"></textarea>
+           <textarea id="element_introductions_v1_area2" name="element_introductions_v1_area2" class="text-sm border rounded-sm px-4 py-1 w-full input" placeholder="Enter some text"></textarea>
           </div>
          </div>
          <div class="flex mb-2">
