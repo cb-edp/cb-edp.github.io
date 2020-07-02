@@ -1,3 +1,12 @@
+.email-code table {border: 0; border-spacing: 0; border-collapse: collapse}
+.email-code td {vertical-align: top !important;}
+.email-code table td {border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; margin: 0; padding: 0;}
+.email-code th {font-weight: normal !important; font-size: 0px !important;}
+.email-code img {line-height: 100%; outline: none; text-decoration: none; margin: 0; font-family: 'Open Sans', Arial, sans-serif; font-size: 13px; vertical-align: middle}
+.email-code input {display: none;}
+.email-code h1, .email-code h2, .email-code h3, .email-code h4, .email-code h5, .email-code h6, .email-code p {margin: 0 !important; text-align: left;}
+
+
 .email-code th {font-weight: normal !important;}
 
 .email-code h2 {font-family: 'Open Sans', Arial, sans-serif; font-size: 28px; font-weight: bold; color: #333333; line-height: 28px !important; padding: 0px 0px 4px 0px;}

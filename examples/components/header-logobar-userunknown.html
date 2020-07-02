@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="nl" xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+<head>
+ <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+ <meta name="sg:pagetag" content="" />
+ <meta name="sg:flowtag" content="" />
+ <!--[if !mso]><!-->
+ <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+ <!-- Load external font stylesheet -->
+ <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
+ <!--<![endif]-->
+ <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+ <meta charset="utf-8"/>
+ <meta name="x-apple-disable-message-referral">
+ <link rel="shortcut icon" href="https://assets.coolblue.nl/images/favicons/favicon.version1.ico" type="image/x-icon" />
+ <base target="_blank">
+ <title>Email Development System | Coolblue</title>
+ 
+ <!-- Reset styles -->
+ <style type="text/css">
+  div, h1, h2, h3, h4, h5, h6, p, a, li, span, td, body {-webkit-text-size-adjust: none; -ms-text-size-adjust: none;}
+  table, td, th {border-spacing: 0; font-weight: normal}
+  body, div, td, th, ul, ol, li, h1, h2, h3, h4, h5, h6, p {margin: 0;padding: 0;font-weight: normal;-webkit-text-size-adjust: none;-ms-text-size-adjust: none}
+  img {-ms-interpolation-mode: bicubic; border: 0}
+  a {text-decoration: none;}
+  a:visited {color:#285dab; text-decoration:none;}
+  #outlook a {padding: 0}
+  .wrapper {table-layout: fixed}
+  u + #new-gmail-hack {display: block !important;}
+  #outlook a {padding: 0;}
+ </style>
+    
+ <!-- General styles -->
+ <style type="text/css">
+  html {height: 100%; width: 100%; margin: 0; padding: 0;}
+  body {width: 100% !important; height: 100%; margin: 0; padding: 0; background-color: #ffffff; -webkit-font-smoothing: antialiased; -webkit-text-size-adjust: none; -ms-text-size-adjust: none;}
+  table {border: 0; border-spacing: 0; border-collapse: collapse}
+  table td {border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; margin: 0; padding: 0;}
+  td {vertical-align: top !important;}
+  th {font-weight: normal !important; font-size: 0px !important;}
+  img {line-height: 100%; outline: none; text-decoration: none; margin: 0; font-family: 'Open Sans', Arial, sans-serif; font-size: 13px; vertical-align: middle}
+  input {display: none;}
+  h1, h2, h3, h4, h5, h6, p, a {margin: 0 !important; text-align: left;}
+  </style>
+  
+ <!-- Font styles -->
+ <style type="text/css">
+  h2 {font-family: 'Open Sans', Arial, sans-serif; font-size: 28px; font-weight: bold; color: #333333; line-height: 28px !important; padding: 0px 0px 4px 0px;}
+  h3 {font-family: 'Open Sans', Arial, sans-serif; font-size: 20px; font-weight: bold; color: #333333; line-height: 25px !important;}
+  h3.branding, h3.medium {font-size: 17px !important; line-height: 21.25px !important;}
+  h3.small {font-size: 15px !important; line-height: 18.75px !important;}
+  h4 {font-family: 'Open Sans', Arial, sans-serif; font-size: 13px; font-weight: bold; color: #0090e3; line-height: 16.25px !important}
+  p {font-family: 'Open Sans', Arial, sans-serif; font-size: 13px; font-weight: normal; color: #333333; line-height: 22.75px !important; text-align: left !important;}
+ 
+  .font_dobra {font-family: 'Open Sans', Arial, sans-serif !important; font-weight: bold !important;}
+ 
+  .price_for {font-size: 15px !important; font-weight: bold !important;}
+  .price_from {font-size: 13px !important; color: #999999 !important; text-decoration: line-through; font-weight: normal !important}
+  .price_advice {font-size: 13px !important; color: #999999 !important; font-weight: normal !important}
+   
+  .link_white, .link_grey, .link_black, .link_coolblue, .link_darkblue {text-decoration: none !important;}
+  .link_white {color: #ffffff !important;}
+  .link_grey {color: #dddddd !important;}
+  .link_black {color: #333333 !important;}
+  .link_coolblue {color: #0090E3 !important;}
+  .link_darkblue {color: #285dab !important;}
+  .hover:hover {text-decoration: underline !important; text-decoration-skip: ink !important;}
+ 
+  .text_orange_bold {color: #ff6600 !important; font-weight: bold !important;}
+ 
+  .label {font-family: 'Open Sans', Arial, sans-serif !important; font-weight: bold !important; font-size: 11px !important}
+  </style>
+ 
+ <!-- Element styles -->
+ <style type="text/css">
+  .container {margin: 0; padding: 0; width: 100% !important; line-height: 100% !important;}
+ 
+  .vertical-align_middle {vertical-align: middle !important;}
+  .vertical-align_bottom {vertical-align: bottom !important;}
+ 
+  .background_white {background-color: #ffffff !important;} 
+  .background_coolblue {background-color: #0090E3 !important;}
+  .background_greyblue {background-color: #F2F7FC !important;}
+ 
+  .border_white {border: 1px solid #ffffff !important;}
+  .border-top_grey {border-top: 1px solid #dddddd !important;}
+  .border-right_grey {border-right: 1px solid #dddddd !important;}
+  .border-bottom_grey {border-bottom: 1px solid #dddddd !important;}
+  .border-bottom_greyblue {border-bottom: 1px solid #40acea !important;}
+  
+  .button_darkblue, .button_lightblue, .button_orange, .button_green, .button_red, .button_ghost {text-align: center; vertical-align: middle; border-radius: 3px; font-family: 'Open Sans', arial, sans-serif; font-size: 13px; line-height: 1; font-weight: bold; mso-padding-alt: 11px;}
+  .button_darkblue a, .button_lightblue a, .button_orange a, .button_green a, .button_red a, .button_ghost a {display: inline-block; text-decoration: none; mso-padding-alt: 11px;} 
+  
+  .button_darkblue {border-bottom: 2px solid #1e4681; background-color: #285DAB; color: #ffffff; mso-border-alt: 1px solid #285DAB}
+  .button_darkblue a {color: #ffffff;  padding: 16px 16px 14px 16px; mso-border-alt: 1px solid #285DAB}
+  .button_darkblue:hover {background-color: #1e4680 !important; border-color: #003366 !important;}
+   
+  .button_lightblue {border-bottom: 2px solid #0090e3; background-color: #40acea; color: #ffffff; mso-border-alt: 1px solid #40acea}
+  .button_lightblue a {color: #ffffff;padding: 16px 16px 14px 16px; mso-border-alt: 1px solid #40acea}
+  .button_lightblue:hover {background-color: #0090e3 !important; border-color: #285dab !important;}
+  
+  .button_orange {border-bottom: 2px solid #e54b03; background-color: #ff6600; color: #ffffff; mso-border-alt: 1px solid #ff6600}
+  .button_orange a {color: #ffffff;padding: 16px 16px 14px 16px; mso-border-alt: 1px solid #ff6600}
+  .button_orange:hover {background-color: #e54b03 !important; border-color: #B93800 !important;}
+   
+  .button_red {border-bottom: 2px solid #c00000; background-color: #e40000; color: #ffffff; mso-border-alt: 1px solid #e40000}
+  .button_red a {color: #ffffff;padding: 16px 16px 14px 16px; mso-border-alt: 1px solid #e40000}
+  .button_red:hover {background-color: #c00000 !important; border-color: #8e2b00 !important;}
+  
+  .button_green {border-bottom: 2px solid #018b00; background-color: #01b901; color: #ffffff; mso-border-alt: 1px solid #01b901}
+  .button_green a {color: #ffffff;padding: 16px 16px 14px 16px; mso-border-alt: 1px solid #01b901}
+  .button_green:hover {background-color: #009600 !important; border-color: #005e00 !important;}
+  
+  .button_ghost {border: 1px solid #dddddd; background-color: #ffffff; color: #40acea; mso-border-alt: 1px solid #ffffff}
+  .button_ghost a {color: #40acea;padding: 16px 16px 16px 16px; mso-border-alt: 1px solid #ffffff}
+  .button_ghost:hover {border-color: #999999 !important;}
+  
+  .button_href {width: 100% !important;}
+  
+  .label_orange, .label_purple {border-radius: 3px !important; padding: 2px 6px 3px 6px !important; color: #ffffff !important}
+  .label_orange {background-color: #ff6600 !important;}
+  .label_purple {background-color: #68007A !important;}
+  .label_blue {background-color: #0090E3 !important; border-radius: 3px !important; padding: 2px 8px;  color: #ffffff !important}
+ 
+  .box_round_corners {display: block !important; border-radius: 3px !important;}
+ </style>
+ 
+ <!-- Leaderboard -->
+ <style type="text/css">
+  .leaderboard_experience, .leaderboard_experience_producttype, .leaderboard_experience_branding {background-size: 608px !important; border-radius: 3px 3px 3px 3px !important;}
+  .leaderboard_experience_contentblock {padding: 16px 16px 16px 0px !important;} 
+  .leaderboard_experience_content {padding: 24px 24px 20px 0px !important; background-color: #fffffe !important; border-radius: 3px 3px 3px 3px !important;} 
+  .leaderboard_experience_h3, .leaderboard_h3 {font-size: 15px !important; color: #0090e3;}
+ 
+  @media only screen and (max-width:640px) {
+   .leaderboard_experience, .leaderboard_experience_producttype, .leaderboard_experience_branding {background-size: contain !important;border-top: 0 !important; background-repeat: no-repeat !important;}
+   .leaderboard_experience {background-image: url("") !important; }
+   .leaderboard_experience_producttype {background-image: url("https://mail.coolblue.eu/images/2020/Week-22/Newsletter/background_image_mob.jpg") !important; }
+   .leaderboard_experience_branding {background-image: url("") !important; }
+   .leaderboard_experience_contentblock {padding: 0px 20px 0px 20px !important;} 
+   .leaderboard_experience_spacer {height: 200px !important; width: 100%;}
+   .leaderboard_experience_spacer_small {height: 150px !important; width: 100%;}
+   .leaderboard_experience_content {padding: 20px 20px 0px 20px !important;}
+  }
+ </style>
+ 
+ <!-- Mobile styles -->
+ <!-- Element styles -->
+ <style type="text/css">
+  @media only screen and (max-width:640px) {
+   u + .body .wrapper {width: 100% !important; width: 100vw !important}
+   
+   .block {display: block !important;}
+   .inline-block {display: inline-block !important;}
+   .hide {display: none !important;}
+   
+   .width_100p {min-width: 100% !important; width: 100% !important;}
+   .width_90p {min-width: 90% !important; width: 90% !important;}
+   .width_80p {min-width: 80% !important; width: 80% !important;}
+   .width_70p {min-width: 70% !important; width: 70% !important;}
+   .width_60p {min-width: 60% !important; width: 60% !important;}
+   .width_50p {min-width: 50% !important; width: 50% !important;}
+   .width_40p {min-width: 40% !important; width: 40% !important;}
+   .width_30p {min-width: 30% !important; width: 30% !important;}
+   .width_20p {min-width: 20% !important; width: 20% !important;}
+   .width_10p {min-width: 10% !important; width: 10% !important;}
+ 
+   .width_16px {width: 16px !important;}
+   .width_8px {width: 8px !important;}
+ 
+   .padding_mob_8 {padding: 8px !important}
+   .padding_mob_16 {padding: 16px !important}
+   .padding_mob_24 {padding: 24px !important}
+  
+   .padding-top_mob_8 {padding-top: 8px !important}
+   .padding-top_mob_16 {padding-top: 16px !important}
+   .padding-top_mob_24 {padding-top: 24px !important}
+  
+   .padding-right_mob_8 {padding-right: 8px !important}
+   .padding-right_mob_16 {padding-right: 16px !important}
+   .padding-right_mob_24 {padding-right: 24px !important}
+  
+   .padding-bottom_mob_8 {padding-bottom: 8px !important;}
+   .padding-bottom_mob_16 {padding-bottom: 16px !important;}
+   .padding-bottom_mob_24 {padding-bottom: 24px !important;}
+  
+   .padding-left_mob_8 {padding-left: 8px !important}
+   .padding-left_mob_16 {padding-left: 16px !important}
+   .padding-left_mob_24 {padding-left: 24px !important}
+  
+   .no_padding {padding: 0px !important;}
+   .no_padding-top {padding-top: 0px !important;}
+   .no_padding-right {padding-right: 0px !important;}
+   .no_padding-bottom {padding-bottom: 0px !important;}
+   .no_padding-left {padding-left: 0px !important;}
+ 
+   .text-align_mob_left {text-align: left !important;}
+   .text-align_mob_right {text-align: right !important;}
+   .text-align_mob_center {text-align: center !important;}
+ 
+   .height_auto {height: auto !important;}
+ 
+   .intro_background {background-size: 608px !important}
+ 
+   .servicemail_content {padding: 20px 0px 40px 0px !important;}
+   .servicemail_gutter {width: 20px !important;}
+   
+   .height_auto {height: auto !important;}
+   .line-height_normal {line-height: normal !important;}
+ 
+   .spacer-top {width: 100% !important; height: 208px !important; }
+ 
+   .direction_rtl {direction: rtl !important;}
+   .direction_ltr {direction: ltr !important;}
+ 
+   .border-bottom_grey_mobile {border-bottom: 1px solid #dddddd !important;}
+ 
+   .no_border-bottom {border-bottom: 0px !important;}
+ 
+   .image_swap_desktop {display:none !important; width:0px !important; height: 0px !important; overflow:hidden !important; line-height: 0px !important; font-size:0px !important;}
+   .image_swap_mobile {display: block !important; max-height: none !important; max-width:none !important; line-height: 1.5 !important; width: 100% !important; height: auto !important;}
+   .image_swap_mobile_inline {display: inline-block !important; max-height: none !important; max-width:none !important; line-height: 1.5 !important; height: auto !important;}
+ 
+   .header_logo {width: auto !important; height: 44px !important;} 
+  }
+ 
+  @media only screen and (max-width:420px) {
+   .intro_background {background-size: 350px !important;}
+   .spacer-top {height: 100px !important;}
+   }
+ 
+  @media only screen and (max-width:320px) {
+   .factslogan {width: 100% !important}
+  }
+ </style>
+ 
+ <style type="text/css">
+  #int_fallback {display: block}
+  #webkit-only, #webkit-only table, #webkit-only tr, #webkit-only th, #webkit-only td, #webkit-only img, #webkit-only label, #webkit-only input {mso-hide: all;}
+ </style>
+ 
+ <!-- Interactive - Button -->
+ <style type="text/css">
+  .button {transition-property: background, border; transition-duration: 0.1s; transition-timing-function: linear; transition-delay: initial; cursor: pointer;}  
+ </style>
+ 
+ <!-- Interactive search bar -->
+ <style type="text/css">
+  input.searchbar {width: 100% !important; display: block !important;}
+ </style>
+ 
+ <!-- Fonts -->
+ <!--[if !mso]><!-->
+  <style type="text/css">
+   @media only screen {
+    @font-face {font-family: 'Open Sans'; font-style: normal; font-weight: 400; src: local('Open Sans'), local('Open Sans'), url(https://fonts.gstatic.com/s/opensans/v13/cJZKeOuBrn4kERxqtaUH3T8E0i7KZn-EPnyo3HZu7kw.woff) format('woff');}
+    @font-face {font-family: 'Open Sans'; font-style: normal; font-weight: 700; src: local('Open Sans Bold'), local('Open Sans-Bold'), url(https://fonts.gstatic.com/s/opensans/v13/k3k702ZOKiLJc3WVjuplzHhCUOGz7vYGh680lGh-uXM.woff) format('woff');}
+    @font-face {font-family: 'Open Sans'; font-style: italic; font-weight: 400; src: local('Open Sans Italic'), local('Open Sans-Italic'), url(https://fonts.gstatic.com/s/opensans/v13/xjAJXh38I15wypJXxuGMBobN6UDyHWBl620a-IRfuBk.woff) format('woff');}
+    @font-face {font-family: AvenirBlack; src: local(Avenir-Black), local(AvenirBlack), url(https://assets.coolblue.nl/fonts/aebl____-webfont.woff2?be31425c98) format("woff2"), url(https://assets.coolblue.nl/fonts/aebl____-webfont.woff?ea7477e531) format("woff"), url(https://assets.coolblue.nl/fonts/aebl____-webfont.ttf?71feae4145) format("truetype"); font-weight: 900}
+    @font-face {font-family: DobraSlabBook; src: local("DobraSlab"), local("DobraSlabBook"), url(https://assets.coolblue.nl/fonts/dobraslab-book-webfont.woff2?d76114fc52) format("woff2"), url(https://assets.coolblue.nl/fonts/dobraslab-book-webfont.woff?fa2f97d11e) format("woff"), url(https://assets.coolblue.nl/fonts/dobraslab-book-webfont.ttf?40b132b70c) format("truetype")}
+    @font-face {font-family: DobraSlabMedium; src: local("DobraSlab"), local("DobraSlabMedium"), url(https://assets.coolblue.nl/fonts/dobraslab-medium-webfont.woff2?adc283d4b4) format("woff2"), url(https://assets.coolblue.nl/fonts/dobraslab-medium-webfont.woff?0b80bdbc78) format("woff"), url(https://assets.coolblue.nl/fonts/dobraslab-medium-webfont.ttf?634ae83462) format("truetype"); font-weight: 500;}
+   }
+  </style>
+  <style type="text/css">
+   @media screen and (-webkit-min-device-pixel-ratio: 0) {
+    .font_dobra {font-family: DobraSlabBook, 'Open Sans', Arial, sans-serif !important; font-weight: normal !important;}
+   }
+  </style>
+ <!--<![endif]-->
+    
+ <!-- Fallback styles -->
+  <!-- Gmail Date/Phonenumber/Links Reset Styles -->
+  <style type="text/css">
+   u + .body a {color: inherit; text-decoration: inherit}
+  </style>
+    
+  <!-- iOS Date/Phonenumber Reset Styles -->
+  <style type="text/css">
+   a[x-apple-data-detectors] {color: inherit !important; text-decoration: none !important}
+  </style>
+    
+  <!-- Android 4.4 Center Fix Styles -->
+  <style type="text/css">
+   div[style*="margin: 16px 0;"] {margin: 0 !important;max-width: 94% !important}
+  </style>
+    
+ <!--[if gte mso 9]>
+  <xml>
+   <o:OfficeDocumentSettings>
+   <o:AllowPNG/>
+   <o:PixelsPerInch>96</o:PixelsPerInch>
+   </o:OfficeDocumentSettings>
+  </xml>
+ <![endif]-->
+ </head>
+ <body leftmargin='0' rightmargin='0' topmargin='0' bottommargin='0' bgcolor='#FFFFFF'>
+  <table role="presentation" width="100%">
+   <tr>
+    <td class="background_coolblue" bgcolor="#0090E3">
+     <table role="presentation" width="100%">
+      <tr>
+       <td width="100%" align="center">
+        <table role="presentation" width="640" class="width_100p">
+         <tr>
+          <td align="center" valign="top" class="padding-left_mob_8">
+           <table role="presentation" width="100%">
+            <tr>
+             <td width="92" class="width_30p">
+              <a href="#">
+               <img src="https://coolblue.bynder.com/m/2e44cddb205179e6/original/coolblue_logo.png" srcset="https://coolblue.bynder.com/m/785c7dc395698f05/original/header_logo.svg" width="auto" height="53" style="width: auto; font-family: DobraSlab, Arial, sans-serif; color: #ffffff;" alt="Coolblue" class="header_logo">
+              </a>
+             </td>
+             <td class="hide" width="223">
+              <a href="#">
+               <img src="https://mail.coolblue.eu/images/Template/HeaderFooter/header_slogan_nl.png?v5" width="auto" height="53" style="width: auto; font-family: DobraSlab, Arial, sans-serif; color: #ffffff;" alt="Alles voor een glimlach.">
+              </a>
+             </td>
+             <td align="right" class="vertical-align_middle">
+              <table role="presentation">
+               <tr>
+                <td style="padding: 0px 8px 0px 8px;">
+                 <p style="color: #ffffff; font-weight: bold; font-size: 15px;">
+                  <a href="#" style="color: #ffffff" class="link_white hover">Inloggen</a>
+                 </p>
+                </td>
+                <td>
+                 <a href="#">
+                  <img src="https://coolblue.bynder.com/m/6865604811f3130e/original/account_arrow.gif" width="5" height="auto" style="height: auto" role="presentation">
+                 </a>
+                </td>
+               </tr>
+              </table>
+             </td>
+            </tr>
+           </table>
+          </td>
+          <td width="16">&nbsp;</td>
+         </tr>
+        </table>
+       </td>
+      </tr>
+     </table>
+    </td>
+   </tr>
+  </table>
+ </body>
+</html>

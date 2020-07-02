@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title>Coolblue - Email Development System</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+  <link href="/style/style.css" rel="stylesheet">
+  <link href="/style/fonts.css" rel="stylesheet">
+  <link href="/style/email.css" rel="stylesheet">
+  <link rel="shortcut icon" href="/img/favicon.png" type="image/x-icon">
+
+  <script src="https://kit.fontawesome.com/1332795812.js" crossorigin="anonymous"></script>
+ </head>
+ <body class="w-full">
+  <div class="grid xl:grid-cols-12 gap-0 xl:h-screen">
+   <!--Sidebar-->
+   <div class="xl:col-span-2 bg-coolblue" id="sidebar">
+   </div>
+   <!--Content-->
+   <div class="xl:col-span-10">
+    <div class="mt-8 xl:mt-24">
+     <div class="my-4 mx-4 xl:mx-8">
+      <div>
+       <h2 class="text-blue-darkblue text-4xl -mt-2">
+        Pre-header<span class="text-orange-coolblue">.</span>
+       </h2>
+       <p>A small menu shown at the top of the mail when it is viewed in the inbox. It is removed once the user goes to the web version of the email.</p>
+       <h3 class="mt-4">
+        General information
+       </h3>
+       <div class="mt-2 mb-8 border rounded divide-y">
+        <div class="p-2 flex">
+         <div class="w-1/4 items-center flex">
+          <p class="font-bold text-sm">
+           Status
+          </p>
+         </div>
+         <div class="w-3/4 items-center flex">
+          <p class="text-sm">
+           <span class="bg-orange-coolblue py-1 px-2 text-sm rounded text-white bold label">In use</span>
+          </p>
+         </div>
+        </div>
+        <div class="p-2 flex">
+         <div class="w-1/4 items-center flex">
+          <p class="font-bold text-sm">
+           Last update
+          </p>
+         </div>
+         <div class="w-3/4 items-center flex">
+          <p class="text-sm">
+           October 21, 2019
+          </p>
+         </div>
+        </div>
+        <div class="p-2 flex">
+         <div class="w-1/4 items-center flex">
+          <p class="font-bold text-sm">
+           Variants
+          </p>
+         </div>
+         <div class="w-3/4 items-center flex">
+          <p class="text-sm">
+           Basic
+          </p>
+         </div>
+        </div>
+        <div class="p-2 flex">
+         <div class="w-1/4 items-center flex">
+          <p class="font-bold text-sm">
+           GitHub
+          </p>
+         </div>
+         <div class="w-3/4 items-center flex">
+          <p class="text-sm">
+           <a href="https://github.com/coolblue-development/email-development/tree/master/snippets/01_header/01_preheader" class="hover:underline text-blue-coolblue">Link</a>
+          </p>
+         </div>
+        </div>
+       </div>
+       <h3 class="mt-4 border-b pb-2">
+        Preview
+       </h3>
+       <h4 class="mt-4">
+        Basic
+       </h4>
+       <div class="flex mt-2">
+        <div class="embed-desktop email-code pointer-events-none h-20 border rounded py-4 md:mr-4 hidden md:block">
+         <iframe src="/examples/components/header-preheader-basic.html"></iframe>
+        </div>
+        <div class="embed-mobile email-code pointer-events-none h-20 border rounded py-4">
+         <iframe src="/examples/components/header-preheader-basic.html"></iframe>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+  <script src="/js/script.js"></script>
+ </body>
+</html>
