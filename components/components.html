@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title>Coolblue - Email Development System</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+  <link href="/style/style.css" rel="stylesheet">
+  <link href="/style/fonts.css" rel="stylesheet">
+  <link href="/style/email.css" rel="stylesheet">
+  <link rel="shortcut icon" href="/img/favicon.png" type="image/x-icon">
+
+  <script src="https://kit.fontawesome.com/1332795812.js" crossorigin="anonymous"></script>
+ </head>
+ <body class="w-full">
+  <div class="grid xl:grid-cols-12 gap-0 xl:h-screen">
+   <!--Sidebar-->
+   <div class="xl:col-span-2 bg-coolblue" id="sidebar">
+   </div>
+   <!--Content-->
+   <div class="xl:col-span-10">
+    <div class="mt-8 xl:mt-24">
+     <div class="my-4 mx-auto xl:mx-8 w-5/6 xl:w-4/6 divide-y divide-gray-300">
+      <div class="pb-8">
+       <h2 class="text-blue-darkblue text-4xl -mt-2">
+        Components<span class="text-orange-coolblue">.</span>
+       </h2>
+       <p>
+        While many emails have their own layout and format, most of them use a set of pre-build components made by the email marketing team. These components have been build so that they can be easily implemented and adjusted to each specific campaign. Components have been divided into four main sections: frameworks, header components, body components and footer components.
+       </p>
+      </div>
+      <div class="py-8">
+       <h3 class="pb-2">Components</h3>
+       <div class="mt-8 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-4">
+        <a href="/components/frameworks.html">
+         <div class="p-4 border-gray-300 hover:border-gray-500 duration-200 border rounded text-center">
+          <i class="far fa-file text-6xl text-blue-coolblue mb-4"></i>
+          <h4>Frameworks</h4>
+          <p class="text-sm">Your starting point for building a new email.</p>
+          <div class="mt-4">
+           <p class="text-sm text-blue-coolblue"><i class="fas fa-angle-right"></i> <span class="hover:underline">Read more</span></p>
+          </div>
+         </div>
+        </a>
+        <a href="/components/header.html">
+         <div class="p-4 border-gray-300 hover:border-gray-500 duration-200 border rounded text-center">
+          <i class="far fa-smile text-6xl text-blue-coolblue mb-4"></i>
+          <h4>Header components</h4>
+          <p class="text-sm">Components like the Coolblue logo and USP's.</p>
+          <div class="mt-4">
+           <p class="text-sm text-blue-coolblue"><i class="fas fa-angle-right"></i> <span class="hover:underline">Read more</span></p>
+          </div>
+         </div>
+        </a>
+        <a href="/components/body.html">
+         <div class="p-4 border-gray-300 hover:border-gray-500 duration-200 border rounded text-center">
+          <i class="far fa-folder-open text-6xl text-blue-coolblue mb-4"></i>
+          <h4>Body components</h4>
+          <p class="text-sm">Components that make up the body of the email.</p>
+          <div class="mt-4">
+           <p class="text-sm text-blue-coolblue"><i class="fas fa-angle-right"></i> <span class="hover:underline">Read more</span></p>
+          </div>
+         </div>
+        </a>
+        <a href="/components/footer.html">
+         <div class="p-4 border-gray-300 hover:border-gray-500 duration-200 border rounded text-center">
+          <i class="far fa-info-square text-6xl text-blue-coolblue mb-4"></i>
+          <h4>Footer components</h4>
+          <p class="text-sm">Components to close off the email with.</p>
+          <div class="mt-4">
+           <p class="text-sm text-blue-coolblue"><i class="fas fa-angle-right"></i> <span class="hover:underline">Read more</span></p>
+          </div>
+         </div>
+        </a>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+  <script src="/js/script.js"></script>
+ </body>
+</html>
