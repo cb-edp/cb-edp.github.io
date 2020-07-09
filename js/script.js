@@ -53,18 +53,20 @@ function reqListener () {
 // Dynamic input-output v2
 const input = document.querySelectorAll('.input');
 const output = document.querySelectorAll('.output');
-console.log(input);
-
-
-
 
 for(let i = 0; i < input.length; i++) {
- console.log(input[i]);
- input[i].addEventListener('input',function(){updateValue(e,output[i])})
+ input[i].addEventListener('input',function(e){
+   const element = e.target
+   const dataElement = e.target.getAttribute('data-for');
+   const value = e.target.value;
+   
+   const outputElem  = document.querySelectorAll(`[data-target=`+dataElement+`]`)[0];
+   updateValue(value,outputElem);
+ })
 };
 
-function updateValue(e,target) {
- target.textContent = e.target.value;
+function updateValue(value,target) {
+ target.textContent = value;
 }
 
 // Dynamic image
