@@ -69,8 +69,18 @@ function updateValue(value,target) {
  target.textContent = value;
 }
 
-// Dynamic image
-var loadFile = function(event) {
+// Dynamic image 
+var loadFile_1 = function(event) {
 	var image = document.getElementById('element_introductions_v1_image_output');
+	image.src = URL.createObjectURL(event.target.files[0]);
+};
+
+var loadFile_2 = function(event) {
+	var image = document.getElementById('element_introductions_v2_image_output');
+	image.src = URL.createObjectURL(event.target.files[0]);
+};
+
+var loadFile_3 = function(event) {
+	var image = document.getElementById('element_introductions_v3_image_output');
 	image.src = URL.createObjectURL(event.target.files[0]);
 };
