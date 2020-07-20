@@ -71,16 +71,31 @@ function updateValue(value,target) {
 
 // Dynamic image 
 var loadFile_1 = function(event) {
-	var image = document.getElementById('element_introductions_v1_image_output');
+	var image = document.getElementById('element_image_output_1');
 	image.src = URL.createObjectURL(event.target.files[0]);
 };
 
 var loadFile_2 = function(event) {
-	var image = document.getElementById('element_introductions_v2_image_output');
+	var image = document.getElementById('element_image_output_2');
 	image.src = URL.createObjectURL(event.target.files[0]);
 };
 
 var loadFile_3 = function(event) {
-	var image = document.getElementById('element_introductions_v3_image_output');
+	var image = document.getElementById('element_image_output_3');
+	image.src = URL.createObjectURL(event.target.files[0]);
+};
+
+var loadFile_4 = function(event) {
+	var image = document.getElementById('element_image_output_4');
+	image.src = URL.createObjectURL(event.target.files[0]);
+};
+
+var loadFile_5 = function(event) {
+	var image = document.getElementById('element_image_output_5');
+	image.src = URL.createObjectURL(event.target.files[0]);
+};
+
+var loadFile_6 = function(event) {
+	var image = document.getElementById('element_image_output_6');
 	image.src = URL.createObjectURL(event.target.files[0]);
 };

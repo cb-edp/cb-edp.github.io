@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title>Coolblue - Email Development System</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+  <link href="/style/style.css" rel="stylesheet">
+  <link href="/style/fonts.css" rel="stylesheet">
+  <link href="/style/email.css" rel="stylesheet">
+  <link rel="shortcut icon" href="/img/favicon.png" type="image/x-icon">
+
+  <script src="https://kit.fontawesome.com/1332795812.js" crossorigin="anonymous"></script>
+  <script defer src="https://pro.fontawesome.com/releases/v5.13.1/js/all.js" integrity="sha384-RFburpZVVirucdjarLLIoBiT+LY5YuPB8XboZYWRuWpElr46csH7Ia2nsHfkfBZF" crossorigin="anonymous"></script>
+  
+ </head>
+ <body class="w-full">
+  <div class="grid xl:grid-cols-12 gap-0 xl:h-screen">
+   <!--Sidebar-->
+   <div class="xl:col-span-2 bg-coolblue" id="sidebar">
+   </div>
+   <!--Content-->
+   <div class="xl:col-span-10">
+    <div class="mt-8 xl:mt-24">
+     <div class="my-4 mx-4 xl:mx-8">
+      <div>
+       <h2 class="text-blue-darkblue text-4xl -mt-2">
+        Blog<span class="text-orange-coolblue">.</span>
+       </h2>
+       <p>This item is often used to show an advice or blog item to the customer, used in both promotional and informational emails.</p>
+       <h3 class="mt-4">
+        General information
+       </h3>
+       <div class="mt-2 mb-8 border rounded divide-y">
+        <div class="p-2 flex">
+         <div class="w-1/4 items-center flex">
+          <p class="font-bold text-sm">
+           Status
+          </p>
+         </div>
+         <div class="w-3/4 items-center flex">
+          <p class="text-sm">
+           <span class="bg-orange-coolblue py-1 px-2 text-sm rounded text-white bold label">In use</span>
+          </p>
+         </div>
+        </div>
+        <div class="p-2 flex">
+         <div class="w-1/4 items-center flex">
+          <p class="font-bold text-sm">
+           Last update
+          </p>
+         </div>
+         <div class="w-3/4 items-center flex">
+          <p class="text-sm">
+           June 18, 2020
+          </p>
+         </div>
+        </div>
+        <div class="p-2 flex">
+         <div class="w-1/4 items-center flex">
+          <p class="font-bold text-sm">
+           Variants
+          </p>
+         </div>
+         <div class="w-3/4 items-center flex">
+          <p class="text-sm">
+           Image - left | Image - right | Specialist - left | Specialist - right
+          </p>
+         </div>
+        </div>
+        <div class="p-2 flex">
+         <div class="w-1/4 items-center flex">
+          <p class="font-bold text-sm">
+           GitHub
+          </p>
+         </div>
+         <div class="w-3/4 items-center flex">
+          <p class="text-sm">
+           <a href="https://github.com/coolblue-development/email-development/tree/master/snippets/02_content/05_blog" class="hover:underline text-blue-coolblue">Link</a>
+          </p>
+         </div>
+        </div>
+       </div>
+       <h3 class="mt-4 border-b pb-2">
+        Preview
+       </h3>
+       <!--Image - left-->
+       <h4 class="mt-4">
+        Image - left
+       </h4>
+       <div class="mt-2 flex">
+        <div class="flex">
+         <div class="embed-desktop email-code border rounded py-4">
+          <table width="100%">
+           <tr>
+            <td align="center">
+             <table role="presentation" width="640" class="width_100p">
+              <tr>
+               <td width="16">&nbsp;</td>
+               <td align="center">
+                <table role="presentation" width="100%" class="border-bottom_grey">
+                 <tr>
+                  <td>
+                   <table role="presentation" width="100%" style="vertical-align: middle;">
+                    <tr>
+                     <th width="240" style="vertical-align: middle" class="width_100p">
+                      <table role="presentation" width="100%">
+                       <tr>
+                        <td style="padding: 24px 0px 24px 0px" class="no_padding-bottom">
+                         <table role="presentation" width="100%">
+                          <tr>
+                           <td align="center">
+                            <a href="#">
+                             <img src="https://mail.coolblue.eu/images/2020/Week-27/Newsletter/NLNL/Video.jpg" width="240" height="auto" style="height: auto; border-radius: 3px;" alt="Image" class="width_100p" role="presentation" id="element_image_output_1">
+                            </a>
+                           </td>
+                          </tr>
+                         </table>
+                        </td>
+                       </tr>
+                      </table>
+                     </th>
+                     <th width="16" class="hide">&nbsp;</th>
+                     <th width="352" style="vertical-align: middle" class="width_100p">
+                      <table role="presentation" width="100%">
+                       <tr>
+                        <td style="padding: 24px 0px 24px 0px">
+                         <table role="presentation" width="100%">
+                          <tr>
+                           <td style="padding: 0px 0px 8px 0px; vertical-align: top;" align="left" valign="top">
+                            <h3 class="branding">
+                             <a href="#" class="link_darkblue hover">
+                              <span class="output" data-target="element_blog_v1_title">
+                               Title
+                              </span>
+                             </a>
+                            </h3>
+                           </td>
+                          </tr>
+                          <tr>
+                           <td style="padding: 0px 0px 16px 0px; vertical-align: top" align="left" valign="top">
+                            <p class="output" data-target="element_blog_v1_text">
+                             Paragraph text
+                            </p>
+                           </td>
+                          </tr>
+                          <tr>
+                           <td style="vertical-align: top" align="left" valign="top">
+                            <table role="presentation" width="100%">
+                             <tr>
+                              <td width="10" style="vertical-align: top; padding: 1px 0px 0px 0px">
+                               <a href="#">
+                                <img src="https://coolblue.bynder.com/m/6b7d005b20173bec/original/button-arrow-light-blue-small.png" srcset="https://coolblue.bynder.com/m/71278279144c48aa/original/button-arrow-light-blue-small.svg" style="height: auto" alt=">" width="6" height="auto" role="presentation" />
+                               </a>
+                              </td>
+                              <td height="22">
+                               <p style="mso-text-raise: 5px;">
+                                <a href="#" class="link_coolblue hover">
+                                 <span class="output" data-target="element_blog_v1_cta">Call-to-action</span>
+                                </a>
+                               </p>
+                              </td>
+                             </tr>
+                            </table>
+                           </td>
+                          </tr>
+                         </table>
+                        </td>
+                       </tr>
+                      </table>
+                     </th>
+                    </tr>
+                   </table>
+                  </td>
+                 </tr>
+                </table>
+               </td>
+               <td width="16">&nbsp;</td>
+              </tr>
+             </table>
+            </td>
+           </tr>
+          </table>
+         </div>
+        </div>
+        <div class="ml-4 w-2/6">
+         <div class="flex mb-2">
+          <div class="w-1/6 flex">
+           <label>
+            <h5>
+             Title
+            </h5>
+           </label>
+          </div>
+          <div class="w-5/6 flex items-center">
+           <input placeholder="Enter some text" data-for="element_blog_v1_title" class="text-sm border rounded-sm px-4 py-1 w-full input"/>
+          </div>
+         </div>
+         <div class="flex mb-2">
+          <div class="w-1/6 flex items-center">
+           <h5>
+            Paragraph
+           </h5>
+          </div>
+          <div class="w-5/6 flex items-center">
+           <textarea data-for="element_blog_v1_text" class="text-sm border rounded-sm px-4 py-1 w-full input" placeholder="Enter some text - Max 200 characters" maxlength="200" rows="5"></textarea>
+          </div>
+         </div>
+         <div class="flex mb-2">
+          <div class="w-1/6 flex">
+           <h5>
+            CTA
+           </h5>
+          </div>
+          <div class="w-5/6 flex items-center">
+           <input placeholder="Enter some text" data-for="element_blog_v1_cta" class="text-sm border rounded-sm px-4 py-1 w-full input"/>
+          </div>
+         </div>
+        </div>      
+       </div>
+       <!--Image - right-->
+       <h4 class="mt-4">
+        Image - right
+       </h4>
+       <div class="mt-2 flex">
+        <div class="flex">
+         <div class="embed-desktop email-code border rounded py-4">
+          <table width="100%">
+           <tr>
+            <td align="center">
+             <table role="presentation" width="640" class="width_100p">
+              <tr>
+               <td width="16">&nbsp;</td>
+               <td align="center">
+                <table role="presentation" width="100%" class="border-bottom_grey">
+                 <tr>
+                  <td>
+                   <table role="presentation" width="100%" style="vertical-align: middle;">
+                    <tr>
+                     <th width="352" style="vertical-align: middle" class="width_100p">
+                      <table role="presentation" width="100%">
+                       <tr>
+                        <td style="padding: 24px 0px 24px 0px">
+                         <table role="presentation" width="100%">
+                          <tr>
+                           <td style="padding: 0px 0px 8px 0px; vertical-align: top;" align="left" valign="top">
+                            <h3 class="branding">
+                             <a href="#" class="link_darkblue hover">
+                              <span class="output" data-target="element_blog_v2_title">
+                               Title
+                              </span>
+                             </a>
+                            </h3>
+                           </td>
+                          </tr>
+                          <tr>
+                           <td style="padding: 0px 0px 16px 0px; vertical-align: top" align="left" valign="top">
+                            <p class="output" data-target="element_blog_v2_text">
+                             Paragraph text
+                            </p>
+                           </td>
+                          </tr>
+                          <tr>
+                           <td style="vertical-align: top" align="left" valign="top">
+                            <table role="presentation" width="100%">
+                             <tr>
+                              <td width="10" style="vertical-align: top; padding: 1px 0px 0px 0px">
+                               <a href="#">
+                                <img src="https://coolblue.bynder.com/m/6b7d005b20173bec/original/button-arrow-light-blue-small.png" srcset="https://coolblue.bynder.com/m/71278279144c48aa/original/button-arrow-light-blue-small.svg" style="height: auto" alt=">" width="6" height="auto" role="presentation" />
+                               </a>
+                              </td>
+                              <td height="22">
+                               <p style="mso-text-raise: 5px;">
+                                <a href="#" class="link_coolblue hover">
+                                 <span class="output" data-target="element_blog_v2_cta">Call-to-action</span>
+                                </a>
+                               </p>
+                              </td>
+                             </tr>
+                            </table>
+                           </td>
+                          </tr>
+                         </table>
+                        </td>
+                       </tr>
+                      </table>
+                     </th>
+                     <th width="16" class="hide">&nbsp;</th>
+                     <th width="240" style="vertical-align: middle" class="width_100p">
+                      <table role="presentation" width="100%">
+                       <tr>
+                        <td style="padding: 24px 0px 24px 0px" class="no_padding-bottom">
+                         <table role="presentation" width="100%">
+                          <tr>
+                           <td align="center">
+                            <a href="#">
+                             <img src="https://mail.coolblue.eu/images/2020/Week-27/Newsletter/NLNL/Video.jpg" width="240" height="auto" style="height: auto; border-radius: 3px;" alt="Image" class="width_100p" role="presentation" id="element_image_output_2">
+                            </a>
+                           </td>
+                          </tr>
+                         </table>
+                        </td>
+                       </tr>
+                      </table>
+                     </th>
+                    </tr>
+                   </table>
+                  </td>
+                 </tr>
+                </table>
+               </td>
+               <td width="16">&nbsp;</td>
+              </tr>
+             </table>
+            </td>
+           </tr>
+          </table>
+         </div>
+        </div>
+        <div class="ml-4 w-2/6">
+         <div class="flex mb-2">
+          <div class="w-1/6 flex">
+           <label>
+            <h5>
+             Title
+            </h5>
+           </label>
+          </div>
+          <div class="w-5/6 flex items-center">
+           <input placeholder="Enter some text" data-for="element_blog_v2_title" class="text-sm border rounded-sm px-4 py-1 w-full input"/>
+          </div>
+         </div>
+         <div class="flex mb-2">
+          <div class="w-1/6 flex items-center">
+           <h5>
+            Paragraph
+           </h5>
+          </div>
+          <div class="w-5/6 flex items-center">
+           <textarea data-for="element_blog_v2_text" class="text-sm border rounded-sm px-4 py-1 w-full input" placeholder="Enter some text - Max 200 characters" maxlength="200" rows="5"></textarea>
+          </div>
+         </div>
+         <div class="flex mb-2">
+          <div class="w-1/6 flex">
+           <h5>
+            CTA
+           </h5>
+          </div>
+          <div class="w-5/6 flex items-center">
+           <input placeholder="Enter some text" data-for="element_blog_v2_cta" class="text-sm border rounded-sm px-4 py-1 w-full input"/>
+          </div>
+         </div>
+        </div>      
+       </div>
+       <!--Specialist - left-->
+       <h4 class="mt-4">
+        Specialist - left
+       </h4>
+       <div class="mt-2 flex">
+        <div class="flex">
+         <div class="embed-desktop email-code border rounded py-4">
+          <table width="100%">
+           <tr>
+            <td align="center">
+             <table role="presentation" width="640" class="width_100p">
+              <tr>
+               <td width="16">&nbsp;</td>
+               <td align="center">
+                <table role="presentation" width="100%" class="border-bottom_grey">
+                 <tr>
+                  <td>
+                   <table role="presentation" width="100%">
+                    <tr>
+                     <th width="192" style="vertical-align: bottom" class="width_100p">
+                      <table role="presentation" width="100%">
+                       <tr>
+                        <td style="padding: 24px 0px 0px 0px" align="center">
+                         <table role="presentation" width="100%" class="width_70p border-bottom_grey_mobile">
+                          <tr>
+                           <td align="center">
+                            <a href="#">
+                             <img src="/img/specialist_regular.jpg" width="192" height="auto" style="height: auto;  vertical-align: bottom;" alt="Image" class="width_100p" role="presentation" id="element_image_output_3">
+                            </a>
+                           </td>
+                          </tr>
+                         </table>
+                        </td>
+                       </tr>
+                      </table>
+                     </th>
+                     <th width="16" class="hide">&nbsp;</th>
+                     <th width="400" style="vertical-align: middle" class="width_100p">
+                      <table role="presentation" width="100%">
+                       <tr>
+                        <td style="padding: 24px 0px 24px 0px">
+                         <table role="presentation" width="100%">
+                          <tr>
+                           <td style="padding: 0px 0px 8px 0px; vertical-align: top;" align="left" valign="top">
+                            <h3 class="branding">
+                             <a href="#" class="link_darkblue hover">
+                              <span class="output" data-target="element_blog_v3_title">
+                               Title
+                              </span>
+                             </a>
+                            </h3>
+                           </td>
+                          </tr>
+                          <tr>
+                           <td style="padding: 0px 0px 16px 0px; vertical-align: top" align="left" valign="top">
+                            <p class="output" data-target="element_blog_v3_text">
+                             Paragraph text
+                            </p>
+                           </td>
+                          </tr>
+                          <tr>
+                           <td style="vertical-align: top" align="left" valign="top">
+                            <table role="presentation" width="100%">
+                             <tr>
+                              <td width="10" style="vertical-align: top; padding: 1px 0px 0px 0px">
+                               <a href="#">
+                                <img src="https://coolblue.bynder.com/m/6b7d005b20173bec/original/button-arrow-light-blue-small.png" srcset="https://coolblue.bynder.com/m/71278279144c48aa/original/button-arrow-light-blue-small.svg" style="height: auto" alt=">" width="6" height="auto" role="presentation" />
+                               </a>
+                              </td>
+                              <td height="22">
+                               <p style="mso-text-raise: 5px;">
+                                <a href="#" class="link_coolblue hover">
+                                 <span class="output" data-target="element_blog_v3_cta">Call-to-action</span>
+                                </a>
+                               </p>
+                              </td>
+                             </tr>
+                            </table>
+                           </td>
+                          </tr>
+                         </table>
+                        </td>
+                       </tr>
+                      </table>
+                     </th>
+                    </tr>
+                   </table>
+                  </td>
+                 </tr>
+                </table>
+               </td>
+               <td width="16">&nbsp;</td>
+              </tr>
+             </table>
+            </td>
+           </tr>
+          </table>
+         </div>
+        </div>
+        <div class="ml-4 w-2/6">
+         <div class="flex mb-2">
+          <div class="w-1/6 flex">
+           <label>
+            <h5>
+             Title
+            </h5>
+           </label>
+          </div>
+          <div class="w-5/6 flex items-center">
+           <input placeholder="Enter some text" data-for="element_blog_v3_title" class="text-sm border rounded-sm px-4 py-1 w-full input"/>
+          </div>
+         </div>
+         <div class="flex mb-2">
+          <div class="w-1/6 flex items-center">
+           <h5>
+            Paragraph
+           </h5>
+          </div>
+          <div class="w-5/6 flex items-center">
+           <textarea data-for="element_blog_v3_text" class="text-sm border rounded-sm px-4 py-1 w-full input" placeholder="Enter some text - Max 200 characters" maxlength="200" rows="5"></textarea>
+          </div>
+         </div>
+         <div class="flex mb-2">
+          <div class="w-1/6 flex">
+           <h5>
+            CTA
+           </h5>
+          </div>
+          <div class="w-5/6 flex items-center">
+           <input placeholder="Enter some text" data-for="element_blog_v3_cta" class="text-sm border rounded-sm px-4 py-1 w-full input"/>
+          </div>
+         </div>
+        </div>      
+       </div>
+       <!--Specialist - right-->
+       <h4 class="mt-4">
+        Specialist - right
+       </h4>
+       <div class="mt-2 flex">
+        <div class="flex">
+         <div class="embed-desktop email-code border rounded py-4">
+          <table width="100%">
+           <tr>
+            <td align="center">
+             <table role="presentation" width="640" class="width_100p">
+              <tr>
+               <td width="16">&nbsp;</td>
+               <td align="center">
+                <table role="presentation" width="100%" class="border-bottom_grey">
+                 <tr>
+                  <td>
+                   <table role="presentation" width="100%">
+                    <tr>
+                     <th width="400" style="vertical-align: middle" class="width_100p">
+                      <table role="presentation" width="100%">
+                       <tr>
+                        <td style="padding: 24px 0px 24px 0px">
+                         <table role="presentation" width="100%">
+                          <tr>
+                           <td style="padding: 0px 0px 8px 0px; vertical-align: top;" align="left" valign="top">
+                            <h3 class="branding">
+                             <a href="#" class="link_darkblue hover">
+                              <span class="output" data-target="element_blog_v4_title">
+                               Title
+                              </span>
+                             </a>
+                            </h3>
+                           </td>
+                          </tr>
+                          <tr>
+                           <td style="padding: 0px 0px 16px 0px; vertical-align: top" align="left" valign="top">
+                            <p class="output" data-target="element_blog_v4_text">
+                             Paragraph text
+                            </p>
+                           </td>
+                          </tr>
+                          <tr>
+                           <td style="vertical-align: top" align="left" valign="top">
+                            <table role="presentation" width="100%">
+                             <tr>
+                              <td width="10" style="vertical-align: top; padding: 1px 0px 0px 0px">
+                               <a href="#">
+                                <img src="https://coolblue.bynder.com/m/6b7d005b20173bec/original/button-arrow-light-blue-small.png" srcset="https://coolblue.bynder.com/m/71278279144c48aa/original/button-arrow-light-blue-small.svg" style="height: auto" alt=">" width="6" height="auto" role="presentation" />
+                               </a>
+                              </td>
+                              <td height="22">
+                               <p style="mso-text-raise: 5px;">
+                                <a href="#" class="link_coolblue hover">
+                                 <span class="output" data-target="element_blog_v4_cta">Call-to-action</span>
+                                </a>
+                               </p>
+                              </td>
+                             </tr>
+                            </table>
+                           </td>
+                          </tr>
+                         </table>
+                        </td>
+                       </tr>
+                      </table>
+                     </th>
+                     <th width="16" class="hide">&nbsp;</th>
+                     <th width="192" style="vertical-align: bottom" class="width_100p">
+                      <table role="presentation" width="100%">
+                       <tr>
+                        <td style="padding: 24px 0px 0px 0px" align="center">
+                         <table role="presentation" width="100%" class="width_70p border-bottom_grey_mobile">
+                          <tr>
+                           <td align="center">
+                            <a href="#">
+                             <img src="/img/specialist_regular.jpg" width="192" height="auto" style="height: auto;  vertical-align: bottom;" alt="Image" class="width_100p" role="presentation" id="element_image_output_4">
+                            </a>
+                           </td>
+                          </tr>
+                         </table>
+                        </td>
+                       </tr>
+                      </table>
+                     </th>
+                    </tr>
+                   </table>
+                  </td>
+                 </tr>
+                </table>
+               </td>
+               <td width="16">&nbsp;</td>
+              </tr>
+             </table>
+            </td>
+           </tr>
+          </table>
+         </div>
+        </div>
+        <div class="ml-4 w-2/6">
+         <div class="flex mb-2">
+          <div class="w-1/6 flex">
+           <label>
+            <h5>
+             Title
+            </h5>
+           </label>
+          </div>
+          <div class="w-5/6 flex items-center">
+           <input placeholder="Enter some text" data-for="element_blog_v4_title" class="text-sm border rounded-sm px-4 py-1 w-full input"/>
+          </div>
+         </div>
+         <div class="flex mb-2">
+          <div class="w-1/6 flex items-center">
+           <h5>
+            Paragraph
+           </h5>
+          </div>
+          <div class="w-5/6 flex items-center">
+           <textarea data-for="element_blog_v4_text" class="text-sm border rounded-sm px-4 py-1 w-full input" placeholder="Enter some text - Max 200 characters" maxlength="200" rows="5"></textarea>
+          </div>
+         </div>
+         <div class="flex mb-2">
+          <div class="w-1/6 flex">
+           <h5>
+            CTA
+           </h5>
+          </div>
+          <div class="w-5/6 flex items-center">
+           <input placeholder="Enter some text" data-for="element_blog_v4_cta" class="text-sm border rounded-sm px-4 py-1 w-full input"/>
+          </div>
+         </div>
+        </div>      
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+  <script src="/js/script.js"></script>
+ </body>
+</html>
