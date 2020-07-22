@@ -13,7 +13,7 @@
 .email-code h3 {font-family: 'Open Sans', Arial, sans-serif; font-size: 20px; font-weight: bold; color: #333333; line-height: 25px !important;}
 .email-code h3.branding {font-size: 17px !important; line-height: 21.25px !important;}
 .email-code h4 {font-family: 'Open Sans', Arial, sans-serif; font-size: 13px; font-weight: bold; color: #0090e3; line-height: 16.25px !important}
-.email-code p {font-family: 'Open Sans', Arial, sans-serif; font-size: 13px; font-weight: normal; color: #333333; line-height: 22.75px !important; text-align: left !important;}
+.email-code p {font-family: 'Open Sans', Arial, sans-serif; font-size: 13px; font-weight: normal; line-height: 22.75px !important; text-align: left !important;}
 
 .email-code .price_for {font-size: 15px !important; font-weight: bold !important;}
 .email-code .price_from {font-size: 13px !important; color: #999999 !important; text-decoration: line-through; font-weight: normal !important}

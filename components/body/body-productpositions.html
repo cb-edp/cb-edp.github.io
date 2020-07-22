@@ -1,0 +1,734 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title>Coolblue - Email Development System</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+  <link href="/style/style.css" rel="stylesheet">
+  <link href="/style/fonts.css" rel="stylesheet">
+  <link href="/style/email.css" rel="stylesheet">
+  <link rel="shortcut icon" href="/img/favicon.png" type="image/x-icon">
+
+  <script src="https://kit.fontawesome.com/1332795812.js" crossorigin="anonymous"></script>
+  <script defer src="https://pro.fontawesome.com/releases/v5.13.1/js/all.js" integrity="sha384-RFburpZVVirucdjarLLIoBiT+LY5YuPB8XboZYWRuWpElr46csH7Ia2nsHfkfBZF" crossorigin="anonymous"></script>
+  
+ </head>
+ <body class="w-full">
+  <div class="grid xl:grid-cols-12 gap-0 xl:h-screen">
+   <!--Sidebar-->
+   <div class="xl:col-span-2 bg-coolblue" id="sidebar">
+   </div>
+   <!--Content-->
+   <div class="xl:col-span-10">
+    <div class="mt-8 xl:mt-24">
+     <div class="my-4 mx-4 xl:mx-8">
+      <div>
+       <h2 class="text-blue-darkblue text-4xl -mt-2">
+        Product positions<span class="text-orange-coolblue">.</span>
+       </h2>
+       <p>These components are used to display products in an email. We have multiple variants, each showing a different of products.</p>
+       <h3 class="mt-4">
+        General information
+       </h3>
+       <div class="mt-2 mb-8 border rounded divide-y">
+        <div class="p-2 flex">
+         <div class="w-1/4 items-center flex">
+          <p class="font-bold text-sm">
+           Status
+          </p>
+         </div>
+         <div class="w-3/4 items-center flex">
+          <p class="text-sm">
+           <span class="bg-orange-coolblue py-1 px-2 text-sm rounded text-white bold label">In use</span>
+          </p>
+         </div>
+        </div>
+        <div class="p-2 flex">
+         <div class="w-1/4 items-center flex">
+          <p class="font-bold text-sm">
+           Last update
+          </p>
+         </div>
+         <div class="w-3/4 items-center flex">
+          <p class="text-sm">
+           July 16, 2020
+          </p>
+         </div>
+        </div>
+        <div class="p-2 flex">
+         <div class="w-1/4 items-center flex">
+          <p class="font-bold text-sm">
+           Variants
+          </p>
+         </div>
+         <div class="w-3/4 items-center flex">
+          <p class="text-sm">
+           2 products | 3 products
+          </p>
+         </div>
+        </div>
+        <div class="p-2 flex">
+         <div class="w-1/4 items-center flex">
+          <p class="font-bold text-sm">
+           GitHub
+          </p>
+         </div>
+         <div class="w-3/4 items-center flex">
+          <p class="text-sm">
+           <a href="https://github.com/coolblue-development/email-development/tree/master/snippets/02_content/04_productpositions" class="hover:underline text-blue-coolblue">Link</a>
+          </p>
+         </div>
+        </div>
+       </div>
+       <h3 class="mt-4 border-b pb-2">
+        Preview
+       </h3>
+       <!--2 products-->
+       <h4 class="mt-4">
+        2 products
+       </h4>
+       <div class="mt-2 flex">
+        <div class="flex">
+         <div class="embed-desktop email-code border rounded py-4">
+          <table width="100%">
+           <tr>
+            <td align="center">
+             <table role="presentation" width="640" class="width_100p">
+              <tr>
+               <td width="16">&nbsp;</td>
+               <td align="center" valign="top">
+                <table role="presentation" width="100%" class="width_100p border-bottom_grey no_border-bottom">
+                 <tr>
+                  <td>
+                   <table role="presentation" width="100%">
+                    <tr>
+                     <td style="padding: 24px 0px 0px 0px" align="left">
+                      <!--[if !mso]><h2><![endif]-->
+                       <img src="https://mail.coolblue.eu/images/Template/FeitSlogans/288/fs_uitgelicht_nl.png" width="288" height="auto" style="height: auto" alt="~#PRODUCTS_FACTSLOGAN_IMAGE_ALT~" class="factslogan">
+                      <!--[if !mso]></h2><![endif]-->
+                     </td>
+                    </tr>
+                   </table>
+                  </td>
+                 </tr>
+                 <tr>
+                  <td>
+                   <table role="presentation" width="100%">
+                    <tr>
+                     <th valign="top" class="width_100p block" width="296">
+                      <table role="presentation" width="296" class="width_100p">
+                       <tr>
+                        <td>
+                         <table role="presentation" width="100%" class="border-bottom_grey_mobile">
+                          <tr>
+                           <td style="padding: 0px 0px 24px 0px;" class="padding-top_mob_8 no_padding-bottom">
+                            <table role="presentation" width="100%">
+                             <tr>
+                              <th width="100%" style="vertical-align: middle; display: block;" class="width_40p inline-block">
+                               <table role="presentation" width="100%">
+                                <tr>
+                                 <td style="padding: 0px 0px 8px 0px; text-align: left; height: 43px;" height="43">
+                                  <a href="#">
+                                   <img src="https://mail.coolblue.eu/images/Template/CoolbluesKeuze/Logo_CBK_NL_D_RGB.png" height="auto" width="45" style="height: auto" alt="" />
+                                  </a>
+                                 </td>
+                                </tr>
+                                <tr>
+                                 <td style="vertical-align: top; padding: 8px 8px 12px 8px;" align="center" valign="top" class="padding-top_mob_16 padding-bottom_mob_16">
+                                  <a href="#">
+                                   <img src="https://image.coolblue.io/transparent/384x384/products/1388495" width="150" height="auto" style="height: auto" alt="Fitbit Versa 2 Zwart" class="width_100p">
+                                  </a>
+                                 </td>
+                                </tr>
+                               </table>
+                              </th>
+                              <!--[if (gte mso 9)|(IE)]>
+                             </tr>
+                             <tr>
+                              <![endif]-->
+                              <th width="100%" style="vertical-align: middle; display: block" class="width_60p inline-block padding-top_mob_16 padding-bottom_mob_16">
+                               <table role="presentation" width="100%">
+                                <tr>
+                                 <td class="padding-left_mob_16">
+                                  <table role="presentation" width="100%">
+                                   <tr>
+                                    <td style="vertical-align: top; height: 36px" valign="top" height="36" class="height_auto">
+                                     <h4>
+                                      <a href="#" class="link_coolblue hover">
+                                       Fitbit Versa 2 Zwart
+                                      </a>
+                                     </h4>
+                                    </td>
+                                   </tr>
+                                   <tr>
+                                    <td style="padding: 0px 0px 6px 0px">
+                                     <table role="presentation" width="100%">
+                                      <tr>
+                                       <td>
+                                        <p style="text-align: left;">
+                                         <a href="#" class="link_coolblue">
+                                          <img src="https://coolblue.bynder.com/m/27ce6e5f5983eb94/original/reviewscore_09_dark.png" width="92" height="auto" style="height: auto; display: inline-block;" alt="578 reviews"> &nbsp; <span class="hover" style="mso-text-raise: 6px; vertical-align: middle;">(578)</span>
+                                         </a>
+                                        </p>
+                                       </td>
+                                      </tr>
+                                     </table>
+                                    </td>
+                                   </tr>
+                                   <tr>
+                                    <td style="padding: 0px 0px 8px 0px;" class="no_padding-bottom">
+                                     <p class="price_for">
+                                      <a href="#" class="link_black">
+                                       177,99
+                                      </a>
+                                     </p>
+                                    </td>
+                                   </tr>
+                                   <tr>
+                                    <td style="padding: 4px 0px 0px 0px; vertical-align: top" valign="top">
+                                     <table role="presentation" width="100%">
+                                      <tr>
+                                       <td>
+                                        <p style="text-align: left;">
+                                         <a href="#" class="link_coolblue">
+                                          <img src="https://coolblue.bynder.com/m/6b7d005b20173bec/original/button-arrow-light-blue-small.png" srcset="https://coolblue.bynder.com/m/71278279144c48aa/original/button-arrow-light-blue-small.svg" style="height: auto; display: inline;" alt=">" width="6" height="auto" />&nbsp;&nbsp;<span style="mso-text-raise: 5px; vertical-align: middle;" class="hover">Alle slimme horloges</span>
+                                         </a>
+                                        </p>
+                                       </td>
+                                      </tr>
+                                     </table>
+                                    </td>
+                                   </tr>
+                                  </table>
+                                 </td>
+                                </tr>
+                               </table>
+                              </th>
+                             </tr>
+                            </table>
+                           </td>
+                          </tr>
+                         </table>
+                        </td>
+                       </tr>
+                      </table>
+                     </th>
+                     <th class="hide" width="16" style="font-weight: normal">&nbsp;</th>
+                     <th valign="top" class="width_100p block" width="296">
+                      <table role="presentation" width="296" class="width_100p">
+                       <tr>
+                        <td>
+                         <table role="presentation" width="100%" class="border-bottom_grey_mobile">
+                          <tr>
+                           <td style="padding: 0px 0px 24px 0px;" class="padding-top_mob_8 no_padding-bottom">
+                            <table role="presentation" width="100%">
+                             <tr>
+                              <th width="100%" style="vertical-align: middle; display: block;" class="width_40p inline-block">
+                               <table role="presentation" width="100%">
+                                <tr>
+                                 <td style="padding: 0px 0px 8px 0px; text-align: left; height: 43px;" height="43">
+                                  <table role="presentation">
+                                   <tr>
+                                    <td bgcolor="#ff6600" class="label_orange">
+                                     <p class="text-white" data-target="element_productpositions_v1_label">
+                                      aanbieding
+                                     </p>
+                                    </td>
+                                   </tr>
+                                  </table>
+                                 </td>
+                                </tr>
+                                <tr>
+                                 <td style="vertical-align: top; padding: 8px 8px 12px 8px;" align="center" valign="top" class="padding-top_mob_16 padding-bottom_mob_16">
+                                  <a href="#">
+                                   <img src="https://image.coolblue.io/transparent/384x384/products/1374335" width="150" height="auto" style="height: auto" alt="Haier HW80-B14636" class="width_100p">
+                                  </a>
+                                 </td>
+                                </tr>
+                               </table>
+                              </th>
+                              <!--[if (gte mso 9)|(IE)]>
+                             </tr>
+                             <tr>
+                              <![endif]-->
+                              <th width="100%" style="vertical-align: middle; display: block" class="width_60p inline-block padding-top_mob_16 padding-bottom_mob_16">
+                               <table role="presentation" width="100%">
+                                <tr>
+                                 <td class="padding-left_mob_16">
+                                  <table role="presentation" width="100%">
+                                   <tr>
+                                    <td style="vertical-align: top; height: 36px" valign="top" height="36" class="height_auto">
+                                     <h4 data-target="element_productpositions_v1_title">
+                                       Haier HW80-B14636
+                                     </h4>
+                                    </td>
+                                   </tr>
+                                   <tr>
+                                    <td style="padding: 0px 0px 6px 0px">
+                                     <table role="presentation" width="100%">
+                                      <tr>
+                                       <td>
+                                        <p style="text-align: left;">
+                                         <a href="#" class="link_coolblue">
+                                          <img src="https://coolblue.bynder.com/m/27ce6e5f5983eb94/original/reviewscore_09_dark.png" width="92" height="auto" style="height: auto; display: inline-block;" alt="578 reviews"> &nbsp; <span class="hover" style="mso-text-raise: 6px; vertical-align: middle;">(847)</span>
+                                         </a>
+                                        </p>
+                                       </td>
+                                      </tr>
+                                     </table>
+                                    </td>
+                                   </tr>
+                                   <tr>
+                                    <td style="padding: 0px 0px 8px 0px;" class="no_padding-bottom">
+                                     <p class="price_for">
+                                      <a href="#" class="link_black">
+                                       <span class="price_advice">Adviesprijs</span>&nbsp;<span class="price_from">549,-</span>&nbsp;&nbsp;449,-
+                                      </a>
+                                     </p>
+                                    </td>
+                                   </tr>
+                                   <tr>
+                                    <td style="padding: 4px 0px 0px 0px; vertical-align: top" valign="top">
+                                     <table role="presentation" width="100%">
+                                      <tr>
+                                       <td>
+                                        <p style="text-align: left;">
+                                         <a href="#" class="link_coolblue">
+                                          <img src="https://coolblue.bynder.com/m/6b7d005b20173bec/original/button-arrow-light-blue-small.png" srcset="https://coolblue.bynder.com/m/71278279144c48aa/original/button-arrow-light-blue-small.svg" style="height: auto; display: inline;" alt=">" width="6" height="auto" />&nbsp;&nbsp;<span style="mso-text-raise: 5px; vertical-align: middle;" class="hover">Alle wasmachines</span>
+                                         </a>
+                                        </p>
+                                       </td>
+                                      </tr>
+                                     </table>
+                                    </td>
+                                   </tr>
+                                  </table>
+                                 </td>
+                                </tr>
+                               </table>
+                              </th>
+                             </tr>
+                            </table>
+                           </td>
+                          </tr>
+                         </table>
+                        </td>
+                       </tr>
+                      </table>
+                     </th>
+                    </tr>
+                   </table>
+                  </td>
+                 </tr>
+                </table>
+               </td>
+               <td width="16">&nbsp;</td>
+              </tr>
+             </table>
+            </td>
+           </tr>
+          </table>
+         </div>
+        </div>
+        <div class="ml-4 w-2/6">
+         <div class="flex mb-2">
+          <div class="w-1/6 flex">
+           <label>
+            <h5>
+             Label
+            </h5>
+           </label>
+          </div>
+          <div class="w-5/6 flex items-center">
+           <input placeholder="Enter some text" data-for="element_productpositions_v1_label" class="text-sm border rounded-sm px-4 py-1 w-full input"/>
+          </div>
+         </div>
+         <div class="flex mb-2">
+          <div class="w-1/6 flex">
+           <h5>
+            Producttitle
+           </h5>
+          </div>
+          <div class="w-5/6 flex items-center">
+           <input placeholder="Enter some text" data-for="element_productpositions_v1_title" class="text-sm border rounded-sm px-4 py-1 w-full input" maxlength="40"/>
+          </div>
+         </div>
+        </div>      
+       </div>
+       <!--3 products-->
+       <h4 class="mt-4">
+        3 products
+       </h4>
+       <div class="mt-2 flex">
+        <div class="flex">
+         <div class="embed-desktop email-code border rounded py-4">
+          <table width="100%">
+           <tr>
+            <td align="center">
+             <table role="presentation" width="640" class="width_100p">
+              <tr>
+               <td width="16">&nbsp;</td>
+               <td align="center" valign="top">
+                <table role="presentation" width="100%" class="width_100p border-bottom_grey no_border-bottom">
+                 <tr>
+                  <td>
+                   <table role="presentation" width="100%">
+                    <tr>
+                     <td style="padding: 24px 0px 0px 0px" align="left">
+                      <!--[if !mso]><h2><![endif]-->
+                       <img src="https://mail.coolblue.eu/images/Template/FeitSlogans/288/fs_uitgelicht_nl.png" width="288" height="auto" style="height: auto" alt="~#PRODUCTS_FACTSLOGAN_IMAGE_ALT~" class="factslogan">
+                      <!--[if !mso]></h2><![endif]-->
+                     </td>
+                    </tr>
+                   </table>
+                  </td>
+                 </tr>
+                 <tr>
+                  <td>
+                   <table role="presentation" width="100%">
+                    <tr>
+                     <th valign="top" class="width_100p block" width="192">
+                      <table role="presentation" width="192" class="width_100p">
+                       <tr>
+                        <td>
+                         <table role="presentation" width="100%" class="border-bottom_grey_mobile">
+                          <tr>
+                           <td style="padding: 0px 0px 24px 0px;" class="padding-top_mob_8 no_padding-bottom">
+                            <table role="presentation" width="100%">
+                             <tr>
+                              <th width="100%" style="vertical-align: middle; display: block;" class="width_40p inline-block">
+                               <table role="presentation" width="100%">
+                                <tr>
+                                 <td style="padding: 0px 0px 8px 0px; text-align: left; height: 43px;" height="43">
+                                  <a href="#">
+                                   <img src="https://mail.coolblue.eu/images/Template/CoolbluesKeuze/Logo_CBK_NL_D_RGB.png" height="auto" width="45" style="height: auto" alt="" />
+                                  </a>
+                                 </td>
+                                </tr>
+                                <tr>
+                                 <td style="vertical-align: top; padding: 8px 8px 12px 8px;" align="center" valign="top" class="padding-top_mob_16 padding-bottom_mob_16">
+                                  <a href="#">
+                                   <img src="https://image.coolblue.io/transparent/384x384/products/1388495" width="150" height="auto" style="height: auto" alt="Fitbit Versa 2 Zwart" class="width_100p">
+                                  </a>
+                                 </td>
+                                </tr>
+                               </table>
+                              </th>
+                              <!--[if (gte mso 9)|(IE)]>
+                             </tr>
+                             <tr>
+                              <![endif]-->
+                              <th width="100%" style="vertical-align: middle; display: block" class="width_60p inline-block padding-top_mob_16 padding-bottom_mob_16">
+                               <table role="presentation" width="100%">
+                                <tr>
+                                 <td class="padding-left_mob_16">
+                                  <table role="presentation" width="100%">
+                                   <tr>
+                                    <td style="vertical-align: top; height: 36px" valign="top" height="36" class="height_auto">
+                                     <h4>
+                                      <a href="#" class="link_coolblue hover">
+                                       Fitbit Versa 2 Zwart
+                                      </a>
+                                     </h4>
+                                    </td>
+                                   </tr>
+                                   <tr>
+                                    <td style="padding: 0px 0px 6px 0px">
+                                     <table role="presentation" width="100%">
+                                      <tr>
+                                       <td>
+                                        <p style="text-align: left;">
+                                         <a href="#" class="link_coolblue">
+                                          <img src="https://coolblue.bynder.com/m/27ce6e5f5983eb94/original/reviewscore_09_dark.png" width="92" height="auto" style="height: auto; display: inline-block;" alt="578 reviews"> &nbsp; <span class="hover" style="mso-text-raise: 6px; vertical-align: middle;">(578)</span>
+                                         </a>
+                                        </p>
+                                       </td>
+                                      </tr>
+                                     </table>
+                                    </td>
+                                   </tr>
+                                   <tr>
+                                    <td style="padding: 0px 0px 8px 0px;" class="no_padding-bottom">
+                                     <p class="price_for">
+                                      <a href="#" class="link_black">
+                                       177,99
+                                      </a>
+                                     </p>
+                                    </td>
+                                   </tr>
+                                   <tr>
+                                    <td style="padding: 4px 0px 0px 0px; vertical-align: top" valign="top">
+                                     <table role="presentation" width="100%">
+                                      <tr>
+                                       <td>
+                                        <p style="text-align: left;">
+                                         <a href="#" class="link_coolblue">
+                                          <img src="https://coolblue.bynder.com/m/6b7d005b20173bec/original/button-arrow-light-blue-small.png" srcset="https://coolblue.bynder.com/m/71278279144c48aa/original/button-arrow-light-blue-small.svg" style="height: auto; display: inline;" alt=">" width="6" height="auto" />&nbsp;&nbsp;<span style="mso-text-raise: 5px; vertical-align: middle;" class="hover">Alle slimme horloges</span>
+                                         </a>
+                                        </p>
+                                       </td>
+                                      </tr>
+                                     </table>
+                                    </td>
+                                   </tr>
+                                  </table>
+                                 </td>
+                                </tr>
+                               </table>
+                              </th>
+                             </tr>
+                            </table>
+                           </td>
+                          </tr>
+                         </table>
+                        </td>
+                       </tr>
+                      </table>
+                     </th>
+                     <th class="hide" width="16" style="font-weight: normal">&nbsp;</th>
+                     <th valign="top" class="width_100p block" width="192">
+                      <table role="presentation" width="192" class="width_100p">
+                       <tr>
+                        <td>
+                         <table role="presentation" width="100%" class="border-bottom_grey_mobile">
+                          <tr>
+                           <td style="padding: 0px 0px 24px 0px;" class="padding-top_mob_8 no_padding-bottom">
+                            <table role="presentation" width="100%">
+                             <tr>
+                              <th width="100%" style="vertical-align: middle; display: block;" class="width_40p inline-block">
+                               <table role="presentation" width="100%">
+                                <tr>
+                                 <td height="51" class="hide" style="height: 51px; line-height: 51px;">&nbsp;</td>
+                                </tr>
+                                <tr>
+                                 <td style="vertical-align: top; padding: 8px 8px 12px 8px;" align="center" valign="top" class="padding-top_mob_16 padding-bottom_mob_16">
+                                  <a href="#">
+                                   <img src="https://image.coolblue.io/transparent/384x384/products/1415009" width="150" height="auto" style="height: auto" alt="Apple iPad Air (2019) 64GB" class="width_100p">
+                                  </a>
+                                 </td>
+                                </tr>
+                               </table>
+                              </th>
+                              <!--[if (gte mso 9)|(IE)]>
+                             </tr>
+                             <tr>
+                              <![endif]-->
+                              <th width="100%" style="vertical-align: middle; display: block" class="width_60p inline-block padding-top_mob_16 padding-bottom_mob_16">
+                               <table role="presentation" width="100%">
+                                <tr>
+                                 <td class="padding-left_mob_16">
+                                  <table role="presentation" width="100%">
+                                   <tr>
+                                    <td style="vertical-align: top; height: 36px" valign="top" height="36" class="height_auto">
+                                     <h4>
+                                      <a href="#" class="link_coolblue hover">
+                                       Apple iPad Air (2019) 64GB
+                                      </a>
+                                     </h4>
+                                    </td>
+                                   </tr>
+                                   <tr>
+                                    <td style="padding: 0px 0px 6px 0px">
+                                     <table role="presentation" width="100%">
+                                      <tr>
+                                       <td>
+                                        <p style="text-align: left;">
+                                         <a href="#" class="link_coolblue">
+                                          <img src="https://coolblue.bynder.com/m/27ce6e5f5983eb94/original/reviewscore_09_dark.png" width="92" height="auto" style="height: auto; display: inline-block;" alt="324 reviews"> &nbsp; <span class="hover" style="mso-text-raise: 6px; vertical-align: middle;">(324)</span>
+                                         </a>
+                                        </p>
+                                       </td>
+                                      </tr>
+                                     </table>
+                                    </td>
+                                   </tr>
+                                   <tr>
+                                    <td style="padding: 0px 0px 8px 0px;" class="no_padding-bottom">
+                                     <p class="price_for">
+                                      <a href="#" class="link_black">
+                                       549,-
+                                      </a>
+                                     </p>
+                                    </td>
+                                   </tr>
+                                   <tr>
+                                    <td style="padding: 4px 0px 0px 0px; vertical-align: top" valign="top">
+                                     <table role="presentation" width="100%">
+                                      <tr>
+                                       <td>
+                                        <p style="text-align: left;">
+                                         <a href="#" class="link_coolblue">
+                                          <img src="https://coolblue.bynder.com/m/6b7d005b20173bec/original/button-arrow-light-blue-small.png" srcset="https://coolblue.bynder.com/m/71278279144c48aa/original/button-arrow-light-blue-small.svg" style="height: auto; display: inline;" alt=">" width="6" height="auto" />&nbsp;&nbsp;<span style="mso-text-raise: 5px; vertical-align: middle;" class="hover">Alle tablets</span>
+                                         </a>
+                                        </p>
+                                       </td>
+                                      </tr>
+                                     </table>
+                                    </td>
+                                   </tr>
+                                  </table>
+                                 </td>
+                                </tr>
+                               </table>
+                              </th>
+                             </tr>
+                            </table>
+                           </td>
+                          </tr>
+                         </table>
+                        </td>
+                       </tr>
+                      </table>
+                     </th>
+                     <th class="hide" width="16" style="font-weight: normal">&nbsp;</th>
+                     <th valign="top" class="width_100p block" width="192">
+                      <table role="presentation" width="192" class="width_100p">
+                       <tr>
+                        <td>
+                         <table role="presentation" width="100%" class="border-bottom_grey_mobile">
+                          <tr>
+                           <td style="padding: 0px 0px 24px 0px;" class="padding-top_mob_8 no_padding-bottom">
+                            <table role="presentation" width="100%">
+                             <tr>
+                              <th width="100%" style="vertical-align: middle; display: block;" class="width_40p inline-block">
+                               <table role="presentation" width="100%">
+                                <tr>
+                                 <td style="padding: 0px 0px 8px 0px; text-align: left; height: 43px;" height="43">
+                                  <table role="presentation">
+                                   <tr>
+                                    <td bgcolor="#ff6600" class="label_orange">
+                                     <p class="text-white" data-target="element_productpositions_v2_label">
+                                      aanbieding
+                                     </p>
+                                    </td>
+                                   </tr>
+                                  </table>
+                                 </td>
+                                </tr>
+                                <tr>
+                                 <td style="vertical-align: top; padding: 8px 8px 12px 8px;" align="center" valign="top" class="padding-top_mob_16 padding-bottom_mob_16">
+                                  <a href="#">
+                                   <img src="https://image.coolblue.io/transparent/384x384/products/1374335" width="150" height="auto" style="height: auto" alt="Haier HW80-B14636" class="width_100p">
+                                  </a>
+                                 </td>
+                                </tr>
+                               </table>
+                              </th>
+                              <!--[if (gte mso 9)|(IE)]>
+                             </tr>
+                             <tr>
+                              <![endif]-->
+                              <th width="100%" style="vertical-align: middle; display: block" class="width_60p inline-block padding-top_mob_16 padding-bottom_mob_16">
+                               <table role="presentation" width="100%">
+                                <tr>
+                                 <td class="padding-left_mob_16">
+                                  <table role="presentation" width="100%">
+                                   <tr>
+                                    <td style="vertical-align: top; height: 36px" valign="top" height="36" class="height_auto">
+                                     <h4 data-target="element_productpositions_v2_title">
+                                       Haier HW80-B14636
+                                     </h4>
+                                    </td>
+                                   </tr>
+                                   <tr>
+                                    <td style="padding: 0px 0px 6px 0px">
+                                     <table role="presentation" width="100%">
+                                      <tr>
+                                       <td>
+                                        <p style="text-align: left;">
+                                         <a href="#" class="link_coolblue">
+                                          <img src="https://coolblue.bynder.com/m/27ce6e5f5983eb94/original/reviewscore_09_dark.png" width="92" height="auto" style="height: auto; display: inline-block;" alt="578 reviews"> &nbsp; <span class="hover" style="mso-text-raise: 6px; vertical-align: middle;">(847)</span>
+                                         </a>
+                                        </p>
+                                       </td>
+                                      </tr>
+                                     </table>
+                                    </td>
+                                   </tr>
+                                   <tr>
+                                    <td style="padding: 0px 0px 8px 0px;" class="no_padding-bottom">
+                                     <p class="price_for">
+                                      <a href="#" class="link_black">
+                                       <span class="price_advice">Adviesprijs</span>&nbsp;<span class="price_from">549,-</span>&nbsp;&nbsp;449,-
+                                      </a>
+                                     </p>
+                                    </td>
+                                   </tr>
+                                   <tr>
+                                    <td style="padding: 4px 0px 0px 0px; vertical-align: top" valign="top">
+                                     <table role="presentation" width="100%">
+                                      <tr>
+                                       <td>
+                                        <p style="text-align: left;">
+                                         <a href="#" class="link_coolblue">
+                                          <img src="https://coolblue.bynder.com/m/6b7d005b20173bec/original/button-arrow-light-blue-small.png" srcset="https://coolblue.bynder.com/m/71278279144c48aa/original/button-arrow-light-blue-small.svg" style="height: auto; display: inline;" alt=">" width="6" height="auto" />&nbsp;&nbsp;<span style="mso-text-raise: 5px; vertical-align: middle;" class="hover">Alle wasmachines</span>
+                                         </a>
+                                        </p>
+                                       </td>
+                                      </tr>
+                                     </table>
+                                    </td>
+                                   </tr>
+                                  </table>
+                                 </td>
+                                </tr>
+                               </table>
+                              </th>
+                             </tr>
+                            </table>
+                           </td>
+                          </tr>
+                         </table>
+                        </td>
+                       </tr>
+                      </table>
+                     </th>
+                    </tr>
+                   </table>
+                  </td>
+                 </tr>
+                </table>
+               </td>
+               <td width="16">&nbsp;</td>
+              </tr>
+             </table>
+            </td>
+           </tr>
+          </table>
+         </div>
+        </div>
+        <div class="ml-4 w-2/6">
+         <div class="flex mb-2">
+          <div class="w-1/6 flex">
+           <label>
+            <h5>
+             Label
+            </h5>
+           </label>
+          </div>
+          <div class="w-5/6 flex items-center">
+           <input placeholder="Enter some text" data-for="element_productpositions_v2_label" class="text-sm border rounded-sm px-4 py-1 w-full input"/>
+          </div>
+         </div>
+         <div class="flex mb-2">
+          <div class="w-1/6 flex">
+           <h5>
+            Producttitle
+           </h5>
+          </div>
+          <div class="w-5/6 flex items-center">
+           <input placeholder="Enter some text" data-for="element_productpositions_v2_title" class="text-sm border rounded-sm px-4 py-1 w-full input" maxlength="40"/>
+          </div>
+         </div>
+        </div>      
+       </div>
+       
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+  <script src="/js/script.js"></script>
+ </body>
+</html>
