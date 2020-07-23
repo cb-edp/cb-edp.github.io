@@ -40,62 +40,41 @@ function reqListener () {
  }
 }
 
-// Dynamic input
-// const input = document.getElementById('element_introductions_v1_area1');
-// const log = document.getElementById('element_introductions_v1_area1_output');
-
-// input.addEventListener('input', updateValue);
-
-// function updateValue(e) {
-//   log.textContent = e.target.value;
-// }
-
-// Dynamic input-output v2
+// Dynamic input-output
 const input = document.querySelectorAll('.input');
 const output = document.querySelectorAll('.output');
 
 for(let i = 0; i < input.length; i++) {
  input[i].addEventListener('input',function(e){
-   const element = e.target
+   const element = e.target;
    const dataElement = e.target.getAttribute('data-for');
+   
+   console.log(dataElement);
+   
    const value = e.target.value;
+   const type = e.target.type;
    
    const outputElem  = document.querySelectorAll(`[data-target=`+dataElement+`]`)[0];
-   updateValue(value,outputElem);
+   
+   console.log(document.querySelectorAll(`[data-target=`+dataElement+`]`));
+   
+   if(type === 'file') {
+     
+     const file = e.target.files[0];
+     
+     var reader = new FileReader();
+     reader.onload = function() {
+       console.log(outputElem);
+      outputElem.src = reader.result;
+     }
+     reader.readAsDataURL(file);
+     
+   } else {
+    updateValue(value,outputElem);
+   }
  })
 };
 
 function updateValue(value,target) {
  target.innerHTML = value;
 }
-
-// Dynamic image 
-var loadFile_1 = function(event) {
-	var image = document.getElementById('element_image_output_1');
-	image.src = URL.createObjectURL(event.target.files[0]);
-};
-
-var loadFile_2 = function(event) {
-	var image = document.getElementById('element_image_output_2');
-	image.src = URL.createObjectURL(event.target.files[0]);
-};
-
-var loadFile_3 = function(event) {
-	var image = document.getElementById('element_image_output_3');
-	image.src = URL.createObjectURL(event.target.files[0]);
-};
-
-var loadFile_4 = function(event) {
-	var image = document.getElementById('element_image_output_4');
-	image.src = URL.createObjectURL(event.target.files[0]);
-};
-
-var loadFile_5 = function(event) {
-	var image = document.getElementById('element_image_output_5');
-	image.src = URL.createObjectURL(event.target.files[0]);
-};
-
-var loadFile_6 = function(event) {
-	var image = document.getElementById('element_image_output_6');
-	image.src = URL.createObjectURL(event.target.files[0]);
-};
