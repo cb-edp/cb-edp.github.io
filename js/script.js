@@ -66,7 +66,7 @@ for(let i = 0; i < input.length; i++) {
 };
 
 function updateValue(value,target) {
- target.textContent = value;
+ target.innerHTML = value;
 }
 
 // Dynamic image 
