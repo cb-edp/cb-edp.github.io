@@ -187,3 +187,18 @@
 .email-code .button {transition-property: background, border; transition-duration: 0.1s; transition-timing-function: linear; transition-delay: initial; cursor: pointer;}  
 
 .email-code input.searchbar {width: 100% !important; display: block !important;}
+
+
+/* Video */
+.email-code .video-wrapper {display:none;}
+ @media (-webkit-min-device-pixel-ratio: 0) and (min-device-width:1024px) 
+ {
+  .email-code .video-wrapper { display:block!important; }
+  .email-code .video-fallback { display:none!important; }
+ }
+  @supports (-webkit-overflow-scrolling:touch) and (color:#ffffffff) {
+    div[class^=video-wrapper] { display:block!important; }
+    div[class^=video-fallback] { display:none!important; }
+  }
+  #MessageViewBody .video-wrapper { display:block!important; }
+  #MessageViewBody .video-fallback { display:none!important; }

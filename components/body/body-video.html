@@ -1,0 +1,889 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title>Coolblue - Email Development System</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+  <link href="/style/style.css" rel="stylesheet">
+  <link href="/style/fonts.css" rel="stylesheet">
+  <link href="/style/email.css" rel="stylesheet">
+  <link rel="shortcut icon" href="/img/favicon.png" type="image/x-icon">
+
+  <script src="https://kit.fontawesome.com/1332795812.js" crossorigin="anonymous"></script>
+  <script defer src="https://pro.fontawesome.com/releases/v5.13.1/js/all.js" integrity="sha384-RFburpZVVirucdjarLLIoBiT+LY5YuPB8XboZYWRuWpElr46csH7Ia2nsHfkfBZF" crossorigin="anonymous"></script>
+  
+ </head>
+ <body class="w-full">
+  <div class="grid xl:grid-cols-12 gap-0 xl:h-screen">
+   <!--Sidebar-->
+   <div class="xl:col-span-2 bg-coolblue" id="sidebar">
+   </div>
+   <!--Content-->
+   <div class="xl:col-span-10">
+    <div class="mt-8 xl:mt-24">
+     <div class="my-4 mx-4 xl:mx-8">
+      <div>
+       <h2 class="text-blue-darkblue text-4xl -mt-2">
+        Video<span class="text-orange-coolblue">.</span>
+       </h2>
+       <p>The video item is in many ways similar to the blog item, although more focused on video items. It comes in several variations, including an interactive one.</p>
+       <h3 class="mt-4">
+        General information
+       </h3>
+       <div class="mt-2 mb-8 border rounded divide-y">
+        <div class="p-2 flex">
+         <div class="w-1/4 items-center flex">
+          <p class="font-bold text-sm">
+           Status
+          </p>
+         </div>
+         <div class="w-3/4 items-center flex">
+          <p class="text-sm">
+           <span class="bg-orange-coolblue py-1 px-2 text-sm rounded text-white bold label">In use</span>
+          </p>
+         </div>
+        </div>
+        <div class="p-2 flex">
+         <div class="w-1/4 items-center flex">
+          <p class="font-bold text-sm">
+           Last update
+          </p>
+         </div>
+         <div class="w-3/4 items-center flex">
+          <p class="text-sm">
+           July 28, 2020
+          </p>
+         </div>
+        </div>
+        <div class="p-2 flex">
+         <div class="w-1/4 items-center flex">
+          <p class="font-bold text-sm">
+           Variants
+          </p>
+         </div>
+         <div class="w-3/4 items-center flex">
+          <p class="text-sm">
+           Regular - Image left | Regular - Image right | Background - Image right | Interactive - Image left | Interactive - Image right | Interactive - full size
+          </p>
+         </div>
+        </div>
+        <div class="p-2 flex">
+         <div class="w-1/4 items-center flex">
+          <p class="font-bold text-sm">
+           GitHub
+          </p>
+         </div>
+         <div class="w-3/4 items-center flex">
+          <p class="text-sm">
+           <a href="https://github.com/coolblue-development/email-development/tree/master/snippets/02_content/06_video" class="hover:underline text-blue-coolblue">Link</a>
+          </p>
+         </div>
+        </div>
+       </div>
+       <h3 class="mt-4 border-b pb-2">
+        Preview
+       </h3>
+       <!--Regular - Image left-->
+       <h4 class="mt-4">
+        Regular - Image left
+       </h4>
+       <div class="mt-2 flex">
+        <div class="flex">
+         <div class="embed-desktop email-code border rounded py-4">
+          <table width="100%">
+           <tr>
+            <td align="center">
+             <table role="presentation" width="640" class="width_100p">
+              <tr>
+               <td width="16">&nbsp;</td>
+               <td align="center">
+                <table role="presentation" width="100%" class="border-bottom_grey">
+                 <tr>
+                  <td>
+                   <table role="presentation" width="100%">
+                    <tr>
+                     <th width="296" style="vertical-align: middle;" class="width_100p block">
+                      <table role="presentation" width="100%">
+                       <tr>
+                        <td style="padding: 24px 0px 24px 0px" class="no_padding-bottom">
+                         <table role="presentation" width="100%">
+                          <tr>
+                           <td style="vertical-align: middle" align="center" valign="middle">
+                            <a href="#">
+                             <img src="https://mail.coolblue.eu/images/2020/Week-29/Nieuwsbrief/blog-branding.jpg" width="296" height="auto" style="height: auto" alt="~#VIDEO_FACTSLOGAN_ALT_TEXT~" class="width_100p output" data-target="element_video_v1_image">
+                            </a>
+                           </td>
+                          </tr>
+                         </table>
+                        </td>
+                       </tr>
+                      </table>
+                     </th>
+                     <th width="16" class="hide">&nbsp;</th>
+                     <th width="296" style="vertical-align: middle;" class="width_100p" dir="ltr">
+                      <table role="presentation" width="100%">
+                       <tr>
+                        <td style="padding: 24px 0px 24px 0px">
+                         <table role="presentation" width="100%">
+                          <tr>
+                           <td style="vertical-align: middle" align="left" width="100%" valign="middle">
+                           <!--[if !mso]><h2><![endif]-->
+                            <img src="https://mail.coolblue.eu/images/Template/FeitSlogans/288/fs_feitslogan_nl.png" width="288" height="auto" style="height: auto" alt="~#VIDEO_FACTSLOGAN_ALT_TEXT~" class="factslogan image_light output" data-target="element_video_v1_factslogan">
+                           <!--[if !mso]></h2><![endif]-->
+                            <div class="image_dark_wrapper" style="mso-hide: all; display: none">
+                             <img src="~#WHITE_VIDEO_FACTSLOGAN_URL~" width="288" height="auto" style="height: auto" alt="~#VIDEO_FACTSLOGAN_ALT~" style="display: none;" class="factslogan image_dark">
+                            </div>
+                           </td>
+                          </tr>
+                         <tr>
+                          <td style="padding: 0px 0px 16px 0px; vertical-align: top" align="left" valign="top">
+                           <p data-target="element_video_v1_text" class="output">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse explicabo quisquam ullam doloremque quia quae soluta, corrupti est vero reiciendis eius provident ducimus.
+                           </p>
+                          </td>
+                         </tr>
+                         <tr>
+                          <td style="vertical-align: top" align="left" valign="top">
+                           <table role="presentation" width="100%">
+                            <tr>
+                             <td width="14" style="vertical-align: top; padding-top: 2px;">
+                              <a href="#">
+                               <img src="https://coolblue.bynder.com/m/6b7d005b20173bec/original/button-arrow-light-blue-small.png" srcset="https://coolblue.bynder.com/m/71278279144c48aa/original/button-arrow-light-blue-small.svg" style="height: auto" alt=">" width="6" height="auto" />
+                              </a>
+                             </td>
+                             <td height="22">
+                              <p style="mso-text-raise: 5px;">
+                               <a href="#" class="link_coolblue hover output" data-target="element_video_v1_cta">
+                                Click here
+                               </a>
+                              </p>
+                             </td>
+                            </tr>
+                           </table>
+                          </td>
+                         </tr>
+                         </table>
+                        </td>
+                       </tr>
+                      </table>
+                     </th>
+                    </tr>
+                   </table>
+                  </td>
+                 </tr>
+                </table>
+               </td>
+               <td width="16">&nbsp;</td>
+              </tr>
+             </table>
+            </td>
+           </tr>
+          </table>
+         </div>
+        </div>
+        <div class="ml-4 w-2/6">
+         <div class="flex mb-2">
+          <div class="w-1/6 flex items-center">
+           <h5>
+            FactSlogan
+           </h5>
+          </div>
+          <div class="w-5/6 flex items-center">
+           <input type="file" data-for="element_video_v1_factslogan" id="element_video_v1_factslogan" class="input" accept="image/gif, image/jpeg, image/png" name="image" style="display: none;">
+           <label for="element_video_v1_factslogan" class="bg-coolblue text-white text-xs rounded py-2 px-4">
+            Upload image
+           </label>
+           <span class=" text-xs text-gray-700 italic ml-4">Dimensions: 288 pixels wide</span>
+          </div>
+         </div>
+         <div class="flex mb-2">
+          <div class="w-1/6 flex items-center">
+           <h5>
+            Text
+           </h5>
+          </div>
+          <div class="w-5/6 flex items-center">
+           <textarea data-for="element_video_v1_text" class="text-sm border rounded-sm px-4 py-1 w-full input" placeholder="Enter some text - Max 200 characters" maxlength="200" rows="5"></textarea>
+          </div>
+         </div>
+         <div class="flex mb-2">
+          <div class="w-1/6 flex">
+           <h5>
+            CTA
+           </h5>
+          </div>
+          <div class="w-5/6 flex items-center">
+           <input placeholder="Enter some text" data-for="element_video_v1_cta" class="text-sm border rounded-sm px-4 py-1 w-full input"/>
+          </div>
+         </div>
+         <div class="flex mb-2">
+          <div class="w-1/6 flex items-center">
+           <h5>
+            Image
+           </h5>
+          </div>
+          <div class="w-5/6 flex items-center">
+           <input type="file" data-for="element_video_v1_image" id="element_video_v1_image" class="input" accept="image/gif, image/jpeg, image/png" name="image" style="display: none;">
+           <label for="element_video_v1_image" class="bg-coolblue text-white text-xs rounded py-2 px-4">
+            Upload image
+           </label>
+           <span class=" text-xs text-gray-700 italic ml-4">Dimensions: 240 pixels wide</span>
+          </div>
+         </div>
+        </div>      
+       </div>
+       <!--Regular - Image right-->
+       <h4 class="mt-4">
+        Regular - Image right
+       </h4>
+       <div class="mt-2 flex">
+        <div class="flex">
+         <div class="embed-desktop email-code border rounded py-4">
+          <table width="100%">
+           <tr>
+            <td align="center">
+             <table role="presentation" width="640" class="width_100p">
+              <tr>
+               <td width="16">&nbsp;</td>
+               <td align="center">
+                <table role="presentation" width="100%" class="border-bottom_grey">
+                 <tr>
+                  <td>
+                   <table role="presentation" width="100%">
+                    <tr>
+                     <th width="296" style="vertical-align: middle;" class="width_100p" dir="ltr">
+                      <table role="presentation" width="100%">
+                       <tr>
+                        <td style="padding: 24px 0px 24px 0px">
+                         <table role="presentation" width="100%">
+                          <tr>
+                           <td style="vertical-align: middle" align="left" width="100%" valign="middle">
+                           <!--[if !mso]><h2><![endif]-->
+                            <img src="https://mail.coolblue.eu/images/Template/FeitSlogans/288/fs_feitslogan_nl.png" width="288" height="auto" style="height: auto" alt="~#VIDEO_FACTSLOGAN_ALT_TEXT~" class="factslogan image_light output" data-target="element_video_v2_factslogan">
+                           <!--[if !mso]></h2><![endif]-->
+                            <div class="image_dark_wrapper" style="mso-hide: all; display: none">
+                             <img src="~#WHITE_VIDEO_FACTSLOGAN_URL~" width="288" height="auto" style="height: auto" alt="~#VIDEO_FACTSLOGAN_ALT~" style="display: none;" class="factslogan image_dark">
+                            </div>
+                           </td>
+                          </tr>
+                         <tr>
+                          <td style="padding: 0px 0px 16px 0px; vertical-align: top" align="left" valign="top">
+                           <p data-target="element_video_v2_text" class="output">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse explicabo quisquam ullam doloremque quia quae soluta, corrupti est vero reiciendis eius provident ducimus.
+                           </p>
+                          </td>
+                         </tr>
+                         <tr>
+                          <td style="vertical-align: top" align="left" valign="top">
+                           <table role="presentation" width="100%">
+                            <tr>
+                             <td width="14" style="vertical-align: top; padding-top: 2px;">
+                              <a href="#">
+                               <img src="https://coolblue.bynder.com/m/6b7d005b20173bec/original/button-arrow-light-blue-small.png" srcset="https://coolblue.bynder.com/m/71278279144c48aa/original/button-arrow-light-blue-small.svg" style="height: auto" alt=">" width="6" height="auto" />
+                              </a>
+                             </td>
+                             <td height="22">
+                              <p style="mso-text-raise: 5px;">
+                               <a href="#" class="link_coolblue hover output" data-target="element_video_v2_cta">
+                                Click here
+                               </a>
+                              </p>
+                             </td>
+                            </tr>
+                           </table>
+                          </td>
+                         </tr>
+                         </table>
+                        </td>
+                       </tr>
+                      </table>
+                     </th>
+                     <th width="16" class="hide">&nbsp;</th>
+                     <th width="296" style="vertical-align: middle;" class="width_100p block">
+                      <table role="presentation" width="100%">
+                       <tr>
+                        <td style="padding: 24px 0px 24px 0px" class="no_padding-bottom">
+                         <table role="presentation" width="100%">
+                          <tr>
+                           <td style="vertical-align: middle" align="center" valign="middle">
+                            <a href="#">
+                             <img src="https://mail.coolblue.eu/images/2020/Week-29/Nieuwsbrief/blog-branding.jpg" width="296" height="auto" style="height: auto" alt="~#VIDEO_FACTSLOGAN_ALT_TEXT~" class="width_100p output" data-target="element_video_v2_image">
+                            </a>
+                           </td>
+                          </tr>
+                         </table>
+                        </td>
+                       </tr>
+                      </table>
+                     </th>
+                    </tr>
+                   </table>
+                  </td>
+                 </tr>
+                </table>
+               </td>
+               <td width="16">&nbsp;</td>
+              </tr>
+             </table>
+            </td>
+           </tr>
+          </table>
+         </div>
+        </div>
+        <div class="ml-4 w-2/6">
+         <div class="flex mb-2">
+          <div class="w-1/6 flex items-center">
+           <h5>
+            FactSlogan
+           </h5>
+          </div>
+          <div class="w-5/6 flex items-center">
+           <input type="file" data-for="element_video_v2_factslogan" id="element_video_v2_factslogan" class="input" accept="image/gif, image/jpeg, image/png" name="image" style="display: none;">
+           <label for="element_video_v2_factslogan" class="bg-coolblue text-white text-xs rounded py-2 px-4">
+            Upload image
+           </label>
+           <span class=" text-xs text-gray-700 italic ml-4">Dimensions: 288 pixels wide</span>
+          </div>
+         </div>
+         <div class="flex mb-2">
+          <div class="w-1/6 flex items-center">
+           <h5>
+            Text
+           </h5>
+          </div>
+          <div class="w-5/6 flex items-center">
+           <textarea data-for="element_video_v2_text" class="text-sm border rounded-sm px-4 py-1 w-full input" placeholder="Enter some text - Max 200 characters" maxlength="200" rows="5"></textarea>
+          </div>
+         </div>
+         <div class="flex mb-2">
+          <div class="w-1/6 flex">
+           <h5>
+            CTA
+           </h5>
+          </div>
+          <div class="w-5/6 flex items-center">
+           <input placeholder="Enter some text" data-for="element_video_v2_cta" class="text-sm border rounded-sm px-4 py-1 w-full input"/>
+          </div>
+         </div>
+         <div class="flex mb-2">
+          <div class="w-1/6 flex items-center">
+           <h5>
+            Image
+           </h5>
+          </div>
+          <div class="w-5/6 flex items-center">
+           <input type="file" data-for="element_video_v2_image" id="element_video_v2_image" class="input" accept="image/gif, image/jpeg, image/png" name="image" style="display: none;">
+           <label for="element_video_v2_image" class="bg-coolblue text-white text-xs rounded py-2 px-4">
+            Upload image
+           </label>
+           <span class=" text-xs text-gray-700 italic ml-4">Dimensions: 240 pixels wide</span>
+          </div>
+         </div>
+        </div>      
+       </div>
+       <!--Regular - Background right-->
+       <h4 class="mt-4">
+        Regular - Background right
+       </h4>
+       <div class="mt-2 flex">
+        <div class="flex">
+         <div class="embed-desktop email-code border rounded py-4">
+          <table width="100%">
+           <tr>
+            <td align="center">
+             <div id="MACONTAINER" macontenteditable="FALSE" maconstraint="" maparameter="VIDEO_ITEM" matype="" mahidediv="TRUE">
+             <div id="MAITEM" macontenteditable="true" mahidediv="TRUE">
+             <table role="presentation" width="640" class="width_100p">
+              <tr>
+               <td width="16">&nbsp;</td>
+               <td align="center" valign="top" style="vertical-align: top; border-radius: 3px; display: block;" class="background_greyblue background_dark">
+                <table role="presentation" width="100%" dir="rtl">
+                 <tr>
+                  <th width="304" class="width_100p" dir="ltr">
+                   <table role="presentation" width="100%">
+                    <tr>
+                     <td>
+                      <a href="#">
+                       <img src="https://mail.coolblue.eu/images/2020/Week-29/Nieuwsbrief/blog-branding.jpg" width="304" height="auto" style="height: auto; border-radius: 0px 3px 3px 0px;" alt="Image" role="presentation" class="blog_image output" data-target="element_video_v3_image">
+                      </a>
+                     </td>
+                    </tr>
+                   </table>
+                  </th>
+                  <th width="304" class="width_100p" dir="ltr">
+                   <table role="presentation" width="100%">
+                    <tr>
+                     <td style="padding: 24px 24px 24px 24px;">
+                      <table role="presentation" width="100%">
+                       <tr>
+                        <td style="text-align: left;">
+                         <!--[if !mso]><h2><![endif]-->
+                          <a href="#">
+                           <img src="https://mail.coolblue.eu/images/Template/FeitSlogans/288/fs_feitslogan_nl.png" width="288" height="auto" style="display: block; height: auto" alt="Image" class="factslogan image_light output" data-target="element_video_v3_factslogan">
+                          </a>
+                         <!--[if !mso]></h2><![endif]-->
+                        </td>
+                       </tr>
+                       <tr>
+                        <td style="padding: 0px 0px 8px 0px;">
+                         <p style="text-align: left;" class="output" data-target="element_video_v3_text">
+                          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse explicabo quisquam ullam doloremque quia quae soluta.
+                         </p>
+                        </td>
+                       </tr>
+                       <tr>
+                        <td>
+                         <table role="presentation" width="100%">
+                          <tr>
+                           <td width="10" style="padding: 1px 4px 0px 0px; vertical-align: top">
+                            <a href="#">
+                             <img src="https://coolblue.bynder.com/m/6b7d005b20173bec/original/button-arrow-light-blue-small.png" srcset="https://coolblue.bynder.com/m/71278279144c48aa/original/button-arrow-light-blue-small.svg" style="height: auto" alt=">" width="6" height="auto" />
+                            </a>
+                           </td>
+                           <td height="22">
+                            <p style="mso-text-raise: 5px;">
+                             <a href="#" class="link_coolblue hover output" data-target="element_video_v3_cta">
+                              Click here
+                             </a>
+                            </p>
+                           </td>
+                          </tr>
+                         </table>
+                        </td>
+                       </tr>
+                      </table>
+                     </td>
+                    </tr>
+                   </table>
+                  </th>
+                 </tr>
+                </table>
+               </td>
+               <td width="16">&nbsp;</td>
+              </tr>
+             </table>
+             </div>
+             </div>
+            </td>
+           </tr>
+          </table>
+         </div>
+        </div>
+        <div class="ml-4 w-2/6">
+         <div class="flex mb-2">
+          <div class="w-1/6 flex items-center">
+           <h5>
+            FactSlogan
+           </h5>
+          </div>
+          <div class="w-5/6 flex items-center">
+           <input type="file" data-for="element_video_v3_factslogan" id="element_video_v3_factslogan" class="input" accept="image/gif, image/jpeg, image/png" name="image" style="display: none;">
+           <label for="element_video_v3_factslogan" class="bg-coolblue text-white text-xs rounded py-2 px-4">
+            Upload image
+           </label>
+           <span class=" text-xs text-gray-700 italic ml-4">Dimensions: 288 pixels wide</span>
+          </div>
+         </div>
+         <div class="flex mb-2">
+          <div class="w-1/6 flex items-center">
+           <h5>
+            Text
+           </h5>
+          </div>
+          <div class="w-5/6 flex items-center">
+           <textarea data-for="element_video_v3_text" class="text-sm border rounded-sm px-4 py-1 w-full input" placeholder="Enter some text - Max 200 characters" maxlength="200" rows="5"></textarea>
+          </div>
+         </div>
+         <div class="flex mb-2">
+          <div class="w-1/6 flex">
+           <h5>
+            CTA
+           </h5>
+          </div>
+          <div class="w-5/6 flex items-center">
+           <input placeholder="Enter some text" data-for="element_video_v3_cta" class="text-sm border rounded-sm px-4 py-1 w-full input"/>
+          </div>
+         </div>
+         <div class="flex mb-2">
+          <div class="w-1/6 flex items-center">
+           <h5>
+            Image
+           </h5>
+          </div>
+          <div class="w-5/6 flex items-center">
+           <input type="file" data-for="element_video_v3_image" id="element_video_v3_image" class="input" accept="image/gif, image/jpeg, image/png" name="image" style="display: none;">
+           <label for="element_video_v3_image" class="bg-coolblue text-white text-xs rounded py-2 px-4">
+            Upload image
+           </label>
+           <span class=" text-xs text-gray-700 italic ml-4">Dimensions: 240 pixels wide</span>
+          </div>
+         </div>
+        </div>      
+       </div>
+       <!--Interactive - video left-->
+       <h4 class="mt-4">
+        Interactive - video left
+       </h4>
+       <div class="mt-2 flex">
+        <div class="flex">
+         <div class="embed-desktop email-code border rounded py-4">
+          <table width="100%">
+           <tr>
+            <td align="center">  
+             <table role="presentation" width="640" class="width_100p">
+              <tr>
+               <td width="16">&nbsp;</td>
+               <td align="center" valign="top" style="vertical-align: top">
+                <table role="presentation" width="100%">
+                 <tr>
+                  <td>
+                   <table role="presentation" width="100%" class="border-bottom_grey" dir="rtl">
+                    <tr>
+                     <th width="296" style="vertical-align: middle;" class="width_100p" dir="ltr">
+                      <table role="presentation" width="100%">
+                       <tr>
+                        <td style="padding: 24px 0px 24px 0px" class="no_padding-bottom">
+                         <table role="presentation" width="100%">
+                          <tr>
+                           <td align="center" width="100%">
+                            <div class="video-wrapper width_100p" style="display:none;">
+                             <video width="296" height="auto" controls="controls"  poster="https://mail.coolblue.eu/images/2020/Week-29/Nieuwsbrief/blog-branding.jpg" src="https://mail.coolblue.eu/images/video\20190912_video_unboxing_samsunggalaxyfit.mp4" class="width_100p">
+                            </div>
+                           </td>
+                          </tr>
+                         </table>
+                        </td>
+                       </tr>
+                      </table>
+                     </th>
+                     <th width="16" class="hide">&nbsp;</th>
+                     <th width="296" style="vertical-align: middle;" class="width_100p " dir="ltr">
+                      <table role="presentation" width="100%">
+                       <tr>
+                        <td style="padding: 24px 0px 24px 0px">
+                         <table role="presentation" width="100%">
+                          <tr>
+                           <td style="vertical-align: top; padding: 0px 0px 8px 0px;" align="left" width="100%" valign="top">
+                            <h3 class="branding">
+                             <a href="#" class="link_darkblue hover output" data-target="element_video_v4_title">
+                              Video title
+                             </a>
+                            </h3>
+                           </td>
+                          </tr>
+                          <tr>
+                           <td style="vertical-align: top; padding: 0px 0px 8px 0px;" align="left" width="100%" valign="top">
+                            <p class="output" data-target="element_video_v4_text">
+                             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse explicabo quisquam ullam doloremque quia quae soluta, corrupti est vero reiciendis eius provident ducimus.
+                            </p>
+                           </td>
+                          </tr>
+                          <tr>
+                           <td align="left" width="100%">
+                            <table role="presentation" width="100%">
+                             <tr>
+                              <td width="10" style="vertical-align: top; padding: 1px 0px 0px 0px;">
+                               <a href="#">
+                                <img src="https://coolblue.bynder.com/m/6b7d005b20173bec/original/button-arrow-light-blue-small.png" srcset="https://coolblue.bynder.com/m/71278279144c48aa/original/button-arrow-light-blue-small.svg" style="height: auto" alt=">" width="6" height="auto" role="presentation" />
+                               </a>
+                              </td>
+                              <td height="22">
+                               <p style="mso-text-raise: 5px;">
+                                <a href="#" class="link_coolblue hover output" data-target="element_video_v4_cta">
+                                 Click here
+                                </a>
+                               </p>
+                              </td>
+                             </tr>
+                            </table>
+                           </td>
+                          </tr>
+                         </table>
+                        </td>
+                       </tr>
+                      </table>
+                     </th>
+                    </tr>
+                   </table>
+                  </td>
+                 </tr>
+                </table>
+               </td>
+               <td width="16">&nbsp;</td>
+              </tr>
+             </table>
+            </td>
+           </tr>
+          </table>
+         </div>
+        </div>
+        <div class="ml-4 w-2/6">
+         <div class="flex mb-2">
+          <div class="w-1/6 flex">
+           <h5>
+            Title
+           </h5>
+          </div>
+          <div class="w-5/6 flex items-center">
+           <input placeholder="Enter some text" data-for="element_video_v4_title" class="text-sm border rounded-sm px-4 py-1 w-full input"/>
+          </div>
+         </div>
+         <div class="flex mb-2">
+          <div class="w-1/6 flex items-center">
+           <h5>
+            Text
+           </h5>
+          </div>
+          <div class="w-5/6 flex items-center">
+           <textarea data-for="element_video_v4_text" class="text-sm border rounded-sm px-4 py-1 w-full input" placeholder="Enter some text - Max 200 characters" maxlength="200" rows="5"></textarea>
+          </div>
+         </div>
+         <div class="flex mb-2">
+          <div class="w-1/6 flex">
+           <h5>
+            CTA
+           </h5>
+          </div>
+          <div class="w-5/6 flex items-center">
+           <input placeholder="Enter some text" data-for="element_video_v4_cta" class="text-sm border rounded-sm px-4 py-1 w-full input"/>
+          </div>
+         </div>
+         </div>
+       </div>
+       <!--Interactive - video right-->
+       <h4 class="mt-4">
+        Interactive - video right
+       </h4>
+       <div class="mt-2 flex">
+        <div class="flex">
+         <div class="embed-desktop email-code border rounded py-4">
+          <table width="100%">
+           <tr>
+            <td align="center">  
+             <table role="presentation" width="640" class="width_100p">
+              <tr>
+               <td width="16">&nbsp;</td>
+               <td align="center" valign="top" style="vertical-align: top">
+                <table role="presentation" width="100%">
+                 <tr>
+                  <td>
+                   <table role="presentation" width="100%" class="border-bottom_grey">
+                    <tr>
+                     <th width="296" style="vertical-align: middle;" class="width_100p" dir="ltr">
+                      <table role="presentation" width="100%">
+                       <tr>
+                        <td style="padding: 24px 0px 24px 0px" class="no_padding-bottom">
+                         <table role="presentation" width="100%">
+                          <tr>
+                           <td align="center" width="100%">
+                            <div class="video-wrapper width_100p" style="display:none;">
+                             <video width="296" height="auto" controls="controls"  poster="https://mail.coolblue.eu/images/2020/Week-29/Nieuwsbrief/blog-branding.jpg" src="https://mail.coolblue.eu/images/video\20190912_video_unboxing_samsunggalaxyfit.mp4" class="width_100p">
+                            </div>
+                           </td>
+                          </tr>
+                         </table>
+                        </td>
+                       </tr>
+                      </table>
+                     </th>
+                     <th width="16" class="hide">&nbsp;</th>
+                     <th width="296" style="vertical-align: middle;" class="width_100p " dir="ltr">
+                      <table role="presentation" width="100%">
+                       <tr>
+                        <td style="padding: 24px 0px 24px 0px">
+                         <table role="presentation" width="100%">
+                          <tr>
+                           <td style="vertical-align: top; padding: 0px 0px 8px 0px;" align="left" width="100%" valign="top">
+                            <h3 class="branding">
+                             <a href="#" class="link_darkblue hover output" data-target="element_video_v5_title">
+                              Video title
+                             </a>
+                            </h3>
+                           </td>
+                          </tr>
+                          <tr>
+                           <td style="vertical-align: top; padding: 0px 0px 8px 0px;" align="left" width="100%" valign="top">
+                            <p class="output" data-target="element_video_v5_text">
+                             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse explicabo quisquam ullam doloremque quia quae soluta, corrupti est vero reiciendis eius provident ducimus.
+                            </p>
+                           </td>
+                          </tr>
+                          <tr>
+                           <td align="left" width="100%">
+                            <table role="presentation" width="100%">
+                             <tr>
+                              <td width="10" style="vertical-align: top; padding: 1px 0px 0px 0px;">
+                               <a href="#">
+                                <img src="https://coolblue.bynder.com/m/6b7d005b20173bec/original/button-arrow-light-blue-small.png" srcset="https://coolblue.bynder.com/m/71278279144c48aa/original/button-arrow-light-blue-small.svg" style="height: auto" alt=">" width="6" height="auto" role="presentation" />
+                               </a>
+                              </td>
+                              <td height="22">
+                               <p style="mso-text-raise: 5px;">
+                                <a href="#" class="link_coolblue hover output" data-target="element_video_v5_cta">
+                                 Click here
+                                </a>
+                               </p>
+                              </td>
+                             </tr>
+                            </table>
+                           </td>
+                          </tr>
+                         </table>
+                        </td>
+                       </tr>
+                      </table>
+                     </th>
+                    </tr>
+                   </table>
+                  </td>
+                 </tr>
+                </table>
+               </td>
+               <td width="16">&nbsp;</td>
+              </tr>
+             </table>
+            </td>
+           </tr>
+          </table>
+         </div>
+        </div>
+        <div class="ml-4 w-2/6">
+         <div class="flex mb-2">
+          <div class="w-1/6 flex">
+           <h5>
+            Title
+           </h5>
+          </div>
+          <div class="w-5/6 flex items-center">
+           <input placeholder="Enter some text" data-for="element_video_v5_title" class="text-sm border rounded-sm px-4 py-1 w-full input"/>
+          </div>
+         </div>
+         <div class="flex mb-2">
+          <div class="w-1/6 flex items-center">
+           <h5>
+            Text
+           </h5>
+          </div>
+          <div class="w-5/6 flex items-center">
+           <textarea data-for="element_video_v5_text" class="text-sm border rounded-sm px-4 py-1 w-full input" placeholder="Enter some text - Max 200 characters" maxlength="200" rows="5"></textarea>
+          </div>
+         </div>
+         <div class="flex mb-2">
+          <div class="w-1/6 flex">
+           <h5>
+            CTA
+           </h5>
+          </div>
+          <div class="w-5/6 flex items-center">
+           <input placeholder="Enter some text" data-for="element_video_v5_cta" class="text-sm border rounded-sm px-4 py-1 w-full input"/>
+          </div>
+         </div>
+        </div>
+       </div>
+       <!--Interactive - video full-->
+       <h4 class="mt-4">
+        Interactive - full size
+       </h4>
+       <div class="mt-2 flex">
+        <div class="flex">
+         <div class="embed-desktop email-code border rounded py-4">
+          <table width="100%">
+           <tr>
+            <td align="center">  
+             <table role="presentation" width="640" class="width_100p">
+              <tr>
+               <td width="16">&nbsp;</td>
+               <td align="center" valign="top" style="vertical-align: top">
+                <table role="presentation" width="100%">
+                 <tr>
+                  <td>
+                   <table role="presentation" width="100%" class="border-bottom_grey">
+                    <tr>
+                     <th width="100%" class="block">
+                      <table role="presentation" width="100%">
+                       <tr>
+                        <td style="padding: 24px 0px 24px 0px">
+                         <table role="presentation" width="100%">
+                          <tr>
+                           <td style="vertical-align: middle" align="left" width="100%" valign="middle">
+                           <!--[if !mso]><h2><![endif]-->
+                            <img src="https://mail.coolblue.eu/images/Template/FeitSlogans/288/fs_feitslogan_nl.png" width="288" height="auto" style="height: auto" alt="~#VIDEO_FACTSLOGAN_ALT_TEXT~" class="factslogan image_light output" data-target="element_video_v6_factslogan">
+                           <!--[if !mso]></h2><![endif]-->
+                            <div class="image_dark_wrapper" style="mso-hide: all; display: none">
+                             <img src="~#WHITE_VIDEO_FACTSLOGAN_URL~" width="288" height="auto" style="height: auto" alt="~#VIDEO_FACTSLOGAN_ALT~" style="display: none;" class="factslogan image_dark">
+                            </div>
+                           </td>
+                          </tr>
+                          <tr>
+                           <td style="vertical-align: top; padding-bottom: 16px;" align="left" width="100%" valign="top">
+                            <p class="output" data-target="element_video_v6_text">
+                             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse explicabo quisquam ullam doloremque quia quae soluta, corrupti est vero reiciendis eius provident ducimus.
+                            </p>
+                           </td>
+                          </tr>
+                          <tr>
+                           <td style="vertical-align: middle" align="center" width="100%" valign="middle">
+                            <div class="video-wrapper width_100p" style="display:none;">
+                             <video width="608" height="auto" controls="controls"  poster="https://mail.coolblue.eu/images/2020/Week-29/Nieuwsbrief/blog-branding.jpg" src="https://mail.coolblue.eu/images/video\20190912_video_unboxing_samsunggalaxyfit.mp4" class="width_100p">
+                              <!-- Fallback 01 -->
+                             </video>
+                            </div>
+                            <!-- Fallback 02 -->
+                           </td>
+                          </tr>
+                         </table>
+                        </td>
+                       </tr>
+                      </table>
+                     </th>
+                    </tr>
+                   </table>
+                  </td>
+                 </tr>
+                </table>
+               </td>
+               <td width="16">&nbsp;</td>
+              </tr>
+             </table>
+            </td>
+           </tr>
+          </table>
+         </div>
+        </div>
+        <div class="ml-4 w-2/6">
+         <div class="flex mb-2">
+          <div class="w-1/6 flex items-center">
+           <h5>
+            FactSlogan
+           </h5>
+          </div>
+          <div class="w-5/6 flex items-center">
+           <input type="file" data-for="element_video_v6_factslogan" id="element_video_v6_factslogan" class="input" accept="image/gif, image/jpeg, image/png" name="image" style="display: none;">
+           <label for="element_video_v6_factslogan" class="bg-coolblue text-white text-xs rounded py-2 px-4">
+            Upload image
+           </label>
+           <span class=" text-xs text-gray-700 italic ml-4">Dimensions: 288 pixels wide</span>
+          </div>
+         </div>
+         <div class="flex mb-2">
+          <div class="w-1/6 flex items-center">
+           <h5>
+            Text
+           </h5>
+          </div>
+          <div class="w-5/6 flex items-center">
+           <textarea data-for="element_video_v6_text" class="text-sm border rounded-sm px-4 py-1 w-full input" placeholder="Enter some text - Max 200 characters" maxlength="200" rows="5"></textarea>
+          </div>
+         </div>
+        </div>
+       </div>   
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+  <script src="/js/script.js"></script>
+ </body>
+</html>
